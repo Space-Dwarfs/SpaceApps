@@ -1,0 +1,36 @@
+PDS_VERSION_ID                     = PDS3                                     
+RECORD_TYPE                        = STREAM                                   
+                                                                              
+OBJECT                             = TEXT                                     
+   PUBLICATION_DATE                = 2005-02-07  /*Label Last Generated*/     
+   NOTE                            = "Description of the contents of the      
+        catalog directory."                                                   
+END_OBJECT                         = TEXT                                     
+END                                                                           
+                                                                              
+                                                                              
+This directory contains the PDS catalog files for this data set. Instrument   
+host file names end in "HOST.CAT". Instrument file names in "INST.CAT".       
+Target files are located in the TARGET sub-directory.                         
+                                                                              
+                   catalog Directory Contents                                 
+                                                                              
+catinfo.txt - The file you are reading.                                       
+                                                                              
+dataset.cat - the catalog file for the data set "Sawyer Asteroid Spectra".    
+                                                                              
+lcsinst.cat - the catalog file for the instrument "Large Cassegrain           
+        Spectrometer".                                                        
+                                                                              
+es2inst.cat - the catalog file for the instrument "Cassegrain Spectrometer".  
+                                                                              
+mission.cat - the catalog file for the mission "SUPPORT ARCHIVES"             
+                                                                              
+mcd27host.cat - the catalog file for the instrument host "McDonald Observatory
+        2.72-m Harlan Smith Ritchey-Chretien equatorial refl.".               
+                                                                              
+mcd21host.cat - the catalog file for the instrument host "McDonald Observatory
+        2.1-m Struve Warner & Swasey reflector".                              
+                                                                              
+references_list.cat - contains all the references used on the data set and its
+        products.                                                             

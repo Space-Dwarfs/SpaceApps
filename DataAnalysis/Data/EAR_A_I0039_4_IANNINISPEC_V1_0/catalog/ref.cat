@@ -1,0 +1,19 @@
+PDS_VERSION_ID                     = PDS3                                     
+RECORD_TYPE                        = "STREAM"                                 
+                                                                              
+OBJECT                             = REFERENCE                                
+  REFERENCE_KEY_ID                 = "SHEINISETAL2002"                        
+  REFERENCE_DESC                   = "Sheinis, A.I. and 7 others, ESI, a New  
+        Keck Observatory Echellette Spectrograph and Imager, PASP 114,        
+        851-865, 2002."                                                       
+END_OBJECT                         = REFERENCE                                
+                                                                              
+OBJECT                             = REFERENCE                                
+  REFERENCE_KEY_ID                 = "WILLMANETAL2008"                        
+  REFERENCE_DESC                   = "Willman, M., R. Jedicke, D. Nesvorny, N.
+        Moskovitz, Z. Ivezic, R. Fevig, Redetermination of the space          
+        weathering rate using spectra of Iannini asteroid family members,     
+        Icarus 195, 663-673, 2008."                                           
+END_OBJECT                         = REFERENCE                                
+                                                                              
+END                                                                           

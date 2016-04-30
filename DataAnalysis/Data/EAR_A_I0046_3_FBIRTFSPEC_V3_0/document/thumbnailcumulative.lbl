@@ -1,0 +1,17 @@
+PDS_VERSION_ID                     = PDS3                                     
+RECORD_TYPE                        = "STREAM"                                 
+DATA_SET_ID                        = "EAR-A-I0046-3-FBIRTFSPEC-V3.0"          
+                                                                              
+^DOCUMENT                          = "thumbnailcumulative.pdf"                
+                                                                              
+OBJECT                             = DOCUMENT                                 
+   DOCUMENT_NAME                   = "THUMBNAILPLOTS"                         
+   PUBLICATION_DATE                = 2015-12-14 /* Label Generated */         
+   DOCUMENT_TOPIC_TYPE             = "SPECTRA"                                
+   INTERCHANGE_FORMAT              = "BINARY"                                 
+   DOCUMENT_FORMAT                 = "ADOBE PDF"                              
+   ABSTRACT_TEXT                   = ""                                       
+   DESCRIPTION                     = "Thumbnail spectral plots of each        
+        individual asteroid. Organized by asteroid number."                   
+END_OBJECT                         = DOCUMENT                                 
+END                                                                           

@@ -1,0 +1,41 @@
+PDS_VERSION_ID                     = PDS3                                     
+RECORD_TYPE                        = "STREAM"                                 
+                                                                              
+OBJECT                             = REFERENCE                                
+  REFERENCE_KEY_ID                 = "BAFFAETAL2001"                          
+  REFERENCE_DESC                   = "Baffa, C. and 16 colleagues, NICS:  The 
+        TNG near-infrared camera spectrometer, Astronomy and Astrophysics,    
+        378, 722-728, 2001."                                                  
+END_OBJECT                         = REFERENCE                                
+                                                                              
+OBJECT                             = REFERENCE                                
+  REFERENCE_KEY_ID                 = "FORNASIERETAL2010"                      
+  REFERENCE_DESC                   = "Fornasier, S., B.E. Clark, E. Dotto, A. 
+        Migliorini, M. Ockert-Bell, and M.A. Barucci, Spectroscopic survey of 
+        M-type asteroids, Icarus 210, 655-673,                                
+        doi:10.1016/j.icarus.2010.07.001, 2010."                              
+END_OBJECT                         = REFERENCE                                
+                                                                              
+OBJECT                             = REFERENCE                                
+  REFERENCE_KEY_ID                 = "MOOREWOODETAL1998"                      
+  REFERENCE_DESC                   = "Moorewood, A., J.-G. Cuby, and C.       
+        Lidman, SOFI sees first light at the NNT, Messenger 91, 9-13, 1998."  
+END_OBJECT                         = REFERENCE                                
+                                                                              
+OBJECT                             = REFERENCE                                
+  REFERENCE_KEY_ID                 = "RAYNERETAL2003"                         
+  REFERENCE_DESC                   = "Rayner, J. T., D. W. Toomey, P. M.      
+        Onaka, A. J. Denault, W. E. Stahlberger, and 3 others, SpeX: A        
+        Medium-Resolution 0.8 - 5.5 micron Spectrograph and Imager for the    
+        NASA Infrared Telescope Facility, PASP 115, 362, 2003."               
+END_OBJECT                         = REFERENCE                                
+                                                                              
+OBJECT                             = REFERENCE                                
+  REFERENCE_KEY_ID                 = "RAYNERETAL2004"                         
+  REFERENCE_DESC                   = "Rayner, J.T., P. M. Onaka, M. C. Cushing
+        and W. D. Vacca, Four Years of Good SpeX, in Ground-based             
+        Instrumentation for Astronomy, A. F. M. Moorwood and M. Iye, Eds.,    
+        Proceedings of the SPIE, vol. 5492, pp. 1498-1509, 2004."             
+END_OBJECT                         = REFERENCE                                
+                                                                              
+END                                                                           

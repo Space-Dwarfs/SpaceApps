@@ -1,0 +1,17 @@
+PDS_VERSION_ID                     = PDS3                                     
+RECORD_TYPE                        = "STREAM"                                 
+DATA_SET_ID                        = "EAR-A-I1092-2-MSPECTRA-V1.0"            
+                                                                              
+^DOCUMENT                          = "spectraplots.pdf"                       
+                                                                              
+OBJECT                             = DOCUMENT                                 
+   DOCUMENT_NAME                   = "SPECTRUM PLOTS FROM FORNASIER ET AL.    
+        (2010)"                                                               
+   PUBLICATION_DATE                = 2010-11-30                               
+   DOCUMENT_TOPIC_TYPE             = "DATA PLOTS"                             
+   INTERCHANGE_FORMAT              = "BINARY"                                 
+   DOCUMENT_FORMAT                 = "ADOBE PDF"                              
+   DESCRIPTION                     = "Plots of composite spectra of M-type    
+        asteroids, reproducing figures 1-5 of Fornasier et al. (2010)."       
+END_OBJECT                         = DOCUMENT                                 
+END                                                                           

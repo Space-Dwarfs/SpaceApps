@@ -1,0 +1,90 @@
+PDS_VERSION_ID                     = PDS3                                     
+                                                                              
+RECORD_TYPE                        = "FIXED_LENGTH"                           
+RECORD_BYTES                       = 22                                       
+FILE_RECORDS                       = 524                                      
+                                                                              
+^TABLE                             = "1358.tab"                               
+                                                                              
+DATA_SET_ID                        = "EAR-A-I0046-3-FBIRTFSPEC-V3.0"          
+PRODUCT_NAME                       = "SPECTRUM 1358 GAIKA"                    
+PRODUCT_ID                         = "FIEBERBEYER2010_1358_TAB"               
+INSTRUMENT_HOST_ID                 = "OBS376T3"                               
+INSTRUMENT_HOST_NAME               = "MAUNA KEA OBSERVATORY 3.0-M NASA        
+        INFRARED TELESCOPE FACILITY (IRTF)"                                   
+INSTRUMENT_ID                      = "I0046"                                  
+INSTRUMENT_NAME                    = "SPEX"                                   
+TARGET_NAME                        = "1358 GAIKA"                             
+TARGET_TYPE                        = "ASTEROID"                               
+START_TIME                         = 2009-05-27T12:55:00                      
+STOP_TIME                          = 2009-05-27T14:16:00                      
+PRODUCT_CREATION_TIME              = 2015-12-14  /* File uploaded to OLAF */  
+REFERENCE_KEY_ID                   = "FIEBER-BEYER2010"                       
+FILTER_NAME                        = "V"                                      
+APPARENT_MAGNITUDE                 = 15.75                                    
+SAMPLING_PARAMETER_NAME            = "WAVELENGTH"                             
+SAMPLING_PARAMETER_UNIT            = "MICRON"                                 
+SAMPLING_PARAMETER_RESOLUTION      = 0.016 <MICRON>                           
+SLITWIDTH                          = 0.8 <ARCSECOND>                          
+EXPOSURE_DURATION                  = 1680 <SECOND>                            
+IMAGE_COUNT                        = 14                                       
+SOLAR_DISTANCE                     = 2.09 <ASTRONOMICAL_UNIT>                 
+GEOCENTRIC_DISTANCE                = 1.43 <ASTRONOMICAL_UNIT>                 
+PHASE_ANGLE                        = 25.60 <DEGREE>                           
+AIRMASS                            = 1.540                                    
+STAR_NAME                          = "HD 139287"                              
+                                                                              
+OBJECT                             = TABLE                                    
+ ROWS                              = 524                                      
+ ROW_BYTES                         = 22                                       
+ INTERCHANGE_FORMAT                = "ASCII"                                  
+ COLUMNS                           = 3                                        
+ DESCRIPTION                       = "The data set contains observations      
+        obtained with the NASA IRTF SpeX instrument covering the 0.7-2.5      
+        micron near-infrared portion of the spectrum.  The data set archives  
+        reduced, calibrated spectra which were obtained and used in Sherry    
+        Fieber-Beyer's Ph.D. dissertation at the University of North Dakota.  
+        The research focused on asteroids in a zone centered on the 3:1       
+        resonance. These spectra were used to mineralogically characterize    
+        asteroids in this zone in an attempt to identify their meteorite      
+        analogs.  "                                                           
+                                                                              
+ OBJECT                            = COLUMN                                   
+  COLUMN_NUMBER                    = 1                                        
+  NAME                             = "WAVELENGTH"                             
+  UNIT                             = "MICRON"                                 
+  DATA_TYPE                        = "ASCII_REAL"                             
+  START_BYTE                       = 1                                        
+  BYTES                            = 6                                        
+  FORMAT                           = "F6.4"                                   
+ END_OBJECT                        = COLUMN                                   
+                                                                              
+ OBJECT                            = COLUMN                                   
+  COLUMN_NUMBER                    = 2                                        
+  NAME                             = "REFLECTANCE"                            
+  DESCRIPTION                      = "The best reductions were normalized     
+        across a spectral interval to avoid the noise that may be associated  
+        with any individual point in the spectrum. The normalization value was
+        the average of the values in SpeX channels 380 to 410. (1.5 to 1.7    
+        microns)."                                                            
+  DATA_TYPE                        = "ASCII_REAL"                             
+  START_BYTE                       = 8                                        
+  BYTES                            = 6                                        
+  FORMAT                           = "F6.4"                                   
+ END_OBJECT                        = COLUMN                                   
+                                                                              
+ OBJECT                            = COLUMN                                   
+  COLUMN_NUMBER                    = 3                                        
+  NAME                             = "UNCERTAINTY"                            
+  DESCRIPTION                      = "The uncertainties associated with each  
+        channel in each asteroid spectrum are standard errors of the mean of  
+        the values averaged to get the reflectance in that channel. "         
+  DATA_TYPE                        = "ASCII_REAL"                             
+  START_BYTE                       = 15                                       
+  BYTES                            = 6                                        
+  FORMAT                           = "F6.4"                                   
+  MISSING_CONSTANT                 = "-.9999"                                 
+ END_OBJECT                        = COLUMN                                   
+                                                                              
+END_OBJECT                         = TABLE                                    
+END                                                                           

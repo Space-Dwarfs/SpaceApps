@@ -1,0 +1,167 @@
+PDS_VERSION_ID                     = PDS3                                     
+                                                                              
+RECORD_TYPE                        = "FIXED_LENGTH"                           
+RECORD_BYTES                       = 532                                      
+FILE_RECORDS                       = 96                                       
+VOLUME_ID                          = "SBN_0031"                               
+                                                                              
+^INDEX_TABLE                       = "index.tab"                              
+                                                                              
+DATA_SET_ID                        =                                          
+        "EAR-A-3-RDR-SAWYER-ASTEROID-SPECTRA-V1.2"                            
+PRODUCT_CREATION_TIME              = 1998-03-23                               
+OBJECT                             = INDEX_TABLE                              
+  INTERCHANGE_FORMAT               = "ASCII"                                  
+  ROWS                             = 96                                       
+  ROW_BYTES                        = 532                                      
+  INDEX_TYPE                       = "SINGLE"                                 
+  COLUMNS                          = 13                                       
+  DESCRIPTION                      = "This table is an index of products      
+        included in this data set."                                           
+                                                                              
+  OBJECT                           = COLUMN                                   
+    COLUMN_NUMBER                  = 1                                        
+    NAME                           = "FILE_SPECIFICATION_NAME"                
+    DESCRIPTION                    = "This is the pathname of the PDS label   
+        for the product."                                                     
+    START_BYTE                     = 2                                        
+    BYTES                          = 31                                       
+    DATA_TYPE                      = "CHARACTER"                              
+    FORMAT                         = "A31"                                    
+  END_OBJECT                       = COLUMN                                   
+                                                                              
+  OBJECT                           = COLUMN                                   
+    COLUMN_NUMBER                  = 2                                        
+    NAME                           = "CITATION_DESC"                          
+    DESCRIPTION                    = "This is the citation for the product."  
+    START_BYTE                     = 36                                       
+    BYTES                          = 139                                      
+    DATA_TYPE                      = "CHARACTER"                              
+    FORMAT                         = "A139"                                   
+  END_OBJECT                       = COLUMN                                   
+                                                                              
+  OBJECT                           = COLUMN                                   
+    COLUMN_NUMBER                  = 3                                        
+    NAME                           = "TARGET_NAME"                            
+    DESCRIPTION                    = "This is the target of the observation." 
+    START_BYTE                     = 178                                      
+    BYTES                          = 14                                       
+    DATA_TYPE                      = "CHARACTER"                              
+    FORMAT                         = "A14"                                    
+  END_OBJECT                       = COLUMN                                   
+                                                                              
+  OBJECT                           = COLUMN                                   
+    COLUMN_NUMBER                  = 4                                        
+    NAME                           = "TARGET_TYPE"                            
+    DESCRIPTION                    = "This is the type of object observed,    
+        e.g. asteroid, comet, (standard) star, dome."                         
+    START_BYTE                     = 195                                      
+    BYTES                          = 8                                        
+    DATA_TYPE                      = "CHARACTER"                              
+    FORMAT                         = "A8"                                     
+  END_OBJECT                       = COLUMN                                   
+                                                                              
+  OBJECT                           = COLUMN                                   
+    COLUMN_NUMBER                  = 5                                        
+    NAME                           = "FILE_NAME"                              
+    DESCRIPTION                    = "This is the name of the data file."     
+    START_BYTE                     = 206                                      
+    BYTES                          = 18                                       
+    DATA_TYPE                      = "CHARACTER"                              
+    FORMAT                         = "A18"                                    
+  END_OBJECT                       = COLUMN                                   
+                                                                              
+  OBJECT                           = COLUMN                                   
+    COLUMN_NUMBER                  = 6                                        
+    NAME                           = "PRODUCT_ID"                             
+    DESCRIPTION                    = "This is the unique identifier within the
+        PDS data set for the given product."                                  
+    START_BYTE                     = 227                                      
+    BYTES                          = 26                                       
+    DATA_TYPE                      = "CHARACTER"                              
+    FORMAT                         = "A26"                                    
+  END_OBJECT                       = COLUMN                                   
+                                                                              
+  OBJECT                           = COLUMN                                   
+    COLUMN_NUMBER                  = 7                                        
+    NAME                           = "START_TIME"                             
+    DESCRIPTION                    = "This is the start date of the           
+        observation."                                                         
+    START_BYTE                     = 256                                      
+    BYTES                          = 10                                       
+    DATA_TYPE                      = "CHARACTER"                              
+    FORMAT                         = "A10"                                    
+  END_OBJECT                       = COLUMN                                   
+                                                                              
+  OBJECT                           = COLUMN                                   
+    COLUMN_NUMBER                  = 8                                        
+    NAME                           = "STOP_TIME"                              
+    DESCRIPTION                    = "This is the stop date of the            
+        observation."                                                         
+    START_BYTE                     = 269                                      
+    BYTES                          = 10                                       
+    DATA_TYPE                      = "CHARACTER"                              
+    FORMAT                         = "A10"                                    
+  END_OBJECT                       = COLUMN                                   
+                                                                              
+  OBJECT                           = COLUMN                                   
+    COLUMN_NUMBER                  = 9                                        
+    NAME                           = "INSTRUMENT_HOST_ID"                     
+    DESCRIPTION                    = "This is the ID for the                  
+        observatory/telescope or laboratory at which the data product was     
+        acquired. A single product will have multiple ID's if data for the    
+        product was aquired at multiple locations."                           
+    START_BYTE                     = 282                                      
+    BYTES                          = 16                                       
+    DATA_TYPE                      = "CHARACTER"                              
+    FORMAT                         = "A16"                                    
+  END_OBJECT                       = COLUMN                                   
+                                                                              
+  OBJECT                           = COLUMN                                   
+    COLUMN_NUMBER                  = 10                                       
+    NAME                           = "INSTRUMENT_HOST_NAME"                   
+    DESCRIPTION                    = "This is the name of the                 
+        observatory(s)/telescope(s) or laboratory(s) used to aquired the data 
+        for the product."                                                     
+    START_BYTE                     = 301                                      
+    BYTES                          = 139                                      
+    DATA_TYPE                      = "CHARACTER"                              
+    FORMAT                         = "A139"                                   
+  END_OBJECT                       = COLUMN                                   
+                                                                              
+  OBJECT                           = COLUMN                                   
+    COLUMN_NUMBER                  = 11                                       
+    NAME                           = "INSTRUMENT_ID"                          
+    DESCRIPTION                    = "This is the ID for the instrument with  
+        which the product was acquired. A single product will have multiple   
+        ID's if data for the product was aquired with multiple instruments."  
+    START_BYTE                     = 443                                      
+    BYTES                          = 12                                       
+    DATA_TYPE                      = "CHARACTER"                              
+    FORMAT                         = "A12"                                    
+  END_OBJECT                       = COLUMN                                   
+                                                                              
+  OBJECT                           = COLUMN                                   
+    COLUMN_NUMBER                  = 12                                       
+    NAME                           = "INSTRUMENT_NAME"                        
+    DESCRIPTION                    = "This is the name of the instrument(s)   
+        used to aquired the data for the product."                            
+    START_BYTE                     = 458                                      
+    BYTES                          = 29                                       
+    DATA_TYPE                      = "CHARACTER"                              
+    FORMAT                         = "A29"                                    
+  END_OBJECT                       = COLUMN                                   
+                                                                              
+  OBJECT                           = COLUMN                                   
+    COLUMN_NUMBER                  = 13                                       
+    NAME                           = "REFERENCE_KEY_ID"                       
+    DESCRIPTION                    = "This is a code to reference any papers  
+        in which the data was published."                                     
+    START_BYTE                     = 490                                      
+    BYTES                          = 40                                       
+    DATA_TYPE                      = "CHARACTER"                              
+    FORMAT                         = "A40"                                    
+  END_OBJECT                       = COLUMN                                   
+                                                                              
+END_OBJECT                         = INDEX_TABLE                              
+END                                                                           

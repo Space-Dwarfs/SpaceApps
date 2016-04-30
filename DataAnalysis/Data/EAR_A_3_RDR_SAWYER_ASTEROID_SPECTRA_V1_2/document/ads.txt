@@ -1,0 +1,680 @@
+%R 2005PDSS...31S
+%A Sawyer, S.
+%T Sawyer Asteroid Spectra
+%D 02/2005
+%J NASA Planetary Data System, EAR-A-3-RDR-SAWYER-ASTEROID-SPECTRA-V1.2
+%U http://pdsquery.jpl.nasa.gov/query?Identifier=EAR-A-3-RDR-SAWYER-ASTEROID-SPECTRA-V1.2&resclass=data.dataset
+%B This data set contains 94 optical asteroid spectra obtained by Scott Sawyer as part of his Ph.D. dissertation at the University of Texas at Austin.  Observational circumstances and processing level are also provided.
+
+%R 2005PDSS...31....1S
+%A Sawyer, S.
+%T Sawyer Asteroid Spectra - Index
+%D 02/2005
+%J NASA Planetary Data System, EAR-A-3-RDR-SAWYER-ASTEROID-SPECTRA-V1.2:SAWINDEX_TAB
+%U http://pdsquery.jpl.nasa.gov/query?Identifier=EAR-A-3-RDR-SAWYER-ASTEROID-SPECTRA-V1.2:SAWINDEX_TAB&resclass=data.product
+
+%R 2005PDSS...31....2S
+%A Sawyer, S.
+%T Sawyer Asteroid Spectra - Solar Stars
+%D 02/2005
+%J NASA Planetary Data System, EAR-A-3-RDR-SAWYER-ASTEROID-SPECTRA-V1.2:SAWSOLAR_TAB
+%U http://pdsquery.jpl.nasa.gov/query?Identifier=EAR-A-3-RDR-SAWYER-ASTEROID-SPECTRA-V1.2:SAWSOLAR_TAB&resclass=data.product
+
+%R 2005PDSS...31....3S
+%A Sawyer, S.
+%T 107camilla
+%D 02/2005
+%J NASA Planetary Data System, EAR-A-3-RDR-SAWYER-ASTEROID-SPECTRA-V1.2:SPECTRA_107CAMILLA_TAB
+%U http://pdsquery.jpl.nasa.gov/query?Identifier=EAR-A-3-RDR-SAWYER-ASTEROID-SPECTRA-V1.2:SPECTRA_107CAMILLA_TAB&resclass=data.product
+
+%R 2005PDSS...31....4S
+%A Sawyer, S.
+%T 10hygiea
+%D 02/2005
+%J NASA Planetary Data System, EAR-A-3-RDR-SAWYER-ASTEROID-SPECTRA-V1.2:SPECTRA_10HYGIEA_TAB
+%U http://pdsquery.jpl.nasa.gov/query?Identifier=EAR-A-3-RDR-SAWYER-ASTEROID-SPECTRA-V1.2:SPECTRA_10HYGIEA_TAB&resclass=data.product
+
+%R 2005PDSS...31....5S
+%A Sawyer, S.
+%T 111ate1
+%D 02/2005
+%J NASA Planetary Data System, EAR-A-3-RDR-SAWYER-ASTEROID-SPECTRA-V1.2:SPECTRA_111ATE1_TAB
+%U http://pdsquery.jpl.nasa.gov/query?Identifier=EAR-A-3-RDR-SAWYER-ASTEROID-SPECTRA-V1.2:SPECTRA_111ATE1_TAB&resclass=data.product
+
+%R 2005PDSS...31....6S
+%A Sawyer, S.
+%T 111ate2
+%D 02/2005
+%J NASA Planetary Data System, EAR-A-3-RDR-SAWYER-ASTEROID-SPECTRA-V1.2:SPECTRA_111ATE2_TAB
+%U http://pdsquery.jpl.nasa.gov/query?Identifier=EAR-A-3-RDR-SAWYER-ASTEROID-SPECTRA-V1.2:SPECTRA_111ATE2_TAB&resclass=data.product
+
+%R 2005PDSS...31....7S
+%A Sawyer, S.
+%T 1167dubiago
+%D 02/2005
+%J NASA Planetary Data System, EAR-A-3-RDR-SAWYER-ASTEROID-SPECTRA-V1.2:SPECTRA_1167DUBIAGO_TAB
+%U http://pdsquery.jpl.nasa.gov/query?Identifier=EAR-A-3-RDR-SAWYER-ASTEROID-SPECTRA-V1.2:SPECTRA_1167DUBIAGO_TAB&resclass=data.product
+
+%R 2005PDSS...31....8S
+%A Sawyer, S.
+%T 1172aneas
+%D 02/2005
+%J NASA Planetary Data System, EAR-A-3-RDR-SAWYER-ASTEROID-SPECTRA-V1.2:SPECTRA_1172ANEAS_TAB
+%U http://pdsquery.jpl.nasa.gov/query?Identifier=EAR-A-3-RDR-SAWYER-ASTEROID-SPECTRA-V1.2:SPECTRA_1172ANEAS_TAB&resclass=data.product
+
+%R 2005PDSS...31....9S
+%A Sawyer, S.
+%T 1268libya
+%D 02/2005
+%J NASA Planetary Data System, EAR-A-3-RDR-SAWYER-ASTEROID-SPECTRA-V1.2:SPECTRA_1268LIBYA_TAB
+%U http://pdsquery.jpl.nasa.gov/query?Identifier=EAR-A-3-RDR-SAWYER-ASTEROID-SPECTRA-V1.2:SPECTRA_1268LIBYA_TAB&resclass=data.product
+
+%R 2005PDSS...31...10S
+%A Sawyer, S.
+%T 127johanna
+%D 02/2005
+%J NASA Planetary Data System, EAR-A-3-RDR-SAWYER-ASTEROID-SPECTRA-V1.2:SPECTRA_127JOHANNA_TAB
+%U http://pdsquery.jpl.nasa.gov/query?Identifier=EAR-A-3-RDR-SAWYER-ASTEROID-SPECTRA-V1.2:SPECTRA_127JOHANNA_TAB&resclass=data.product
+
+%R 2005PDSS...31...11S
+%A Sawyer, S.
+%T 128nemesis
+%D 02/2005
+%J NASA Planetary Data System, EAR-A-3-RDR-SAWYER-ASTEROID-SPECTRA-V1.2:SPECTRA_128NEMESIS_TAB
+%U http://pdsquery.jpl.nasa.gov/query?Identifier=EAR-A-3-RDR-SAWYER-ASTEROID-SPECTRA-V1.2:SPECTRA_128NEMESIS_TAB&resclass=data.product
+
+%R 2005PDSS...31...12S
+%A Sawyer, S.
+%T 130elektra
+%D 02/2005
+%J NASA Planetary Data System, EAR-A-3-RDR-SAWYER-ASTEROID-SPECTRA-V1.2:SPECTRA_130ELEKTRA_TAB
+%U http://pdsquery.jpl.nasa.gov/query?Identifier=EAR-A-3-RDR-SAWYER-ASTEROID-SPECTRA-V1.2:SPECTRA_130ELEKTRA_TAB&resclass=data.product
+
+%R 2005PDSS...31...13S
+%A Sawyer, S.
+%T 137meliboea
+%D 02/2005
+%J NASA Planetary Data System, EAR-A-3-RDR-SAWYER-ASTEROID-SPECTRA-V1.2:SPECTRA_137MELIBOEA_TAB
+%U http://pdsquery.jpl.nasa.gov/query?Identifier=EAR-A-3-RDR-SAWYER-ASTEROID-SPECTRA-V1.2:SPECTRA_137MELIBOEA_TAB&resclass=data.product
+
+%R 2005PDSS...31...14S
+%A Sawyer, S.
+%T 13egeria
+%D 02/2005
+%J NASA Planetary Data System, EAR-A-3-RDR-SAWYER-ASTEROID-SPECTRA-V1.2:SPECTRA_13EGERIA_TAB
+%U http://pdsquery.jpl.nasa.gov/query?Identifier=EAR-A-3-RDR-SAWYER-ASTEROID-SPECTRA-V1.2:SPECTRA_13EGERIA_TAB&resclass=data.product
+
+%R 2005PDSS...31...15S
+%A Sawyer, S.
+%T 148gallia
+%D 02/2005
+%J NASA Planetary Data System, EAR-A-3-RDR-SAWYER-ASTEROID-SPECTRA-V1.2:SPECTRA_148GALLIA_TAB
+%U http://pdsquery.jpl.nasa.gov/query?Identifier=EAR-A-3-RDR-SAWYER-ASTEROID-SPECTRA-V1.2:SPECTRA_148GALLIA_TAB&resclass=data.product
+
+%R 2005PDSS...31...16S
+%A Sawyer, S.
+%T 14irene1
+%D 02/2005
+%J NASA Planetary Data System, EAR-A-3-RDR-SAWYER-ASTEROID-SPECTRA-V1.2:SPECTRA_14IRENE1_TAB
+%U http://pdsquery.jpl.nasa.gov/query?Identifier=EAR-A-3-RDR-SAWYER-ASTEROID-SPECTRA-V1.2:SPECTRA_14IRENE1_TAB&resclass=data.product
+
+%R 2005PDSS...31...17S
+%A Sawyer, S.
+%T 14irene2
+%D 02/2005
+%J NASA Planetary Data System, EAR-A-3-RDR-SAWYER-ASTEROID-SPECTRA-V1.2:SPECTRA_14IRENE2_TAB
+%U http://pdsquery.jpl.nasa.gov/query?Identifier=EAR-A-3-RDR-SAWYER-ASTEROID-SPECTRA-V1.2:SPECTRA_14IRENE2_TAB&resclass=data.product
+
+%R 2005PDSS...31...18S
+%A Sawyer, S.
+%T 171ophelia
+%D 02/2005
+%J NASA Planetary Data System, EAR-A-3-RDR-SAWYER-ASTEROID-SPECTRA-V1.2:SPECTRA_171OPHELIA_TAB
+%U http://pdsquery.jpl.nasa.gov/query?Identifier=EAR-A-3-RDR-SAWYER-ASTEROID-SPECTRA-V1.2:SPECTRA_171OPHELIA_TAB&resclass=data.product
+
+%R 2005PDSS...31...19S
+%A Sawyer, S.
+%T 173ino
+%D 02/2005
+%J NASA Planetary Data System, EAR-A-3-RDR-SAWYER-ASTEROID-SPECTRA-V1.2:SPECTRA_173INO_TAB
+%U http://pdsquery.jpl.nasa.gov/query?Identifier=EAR-A-3-RDR-SAWYER-ASTEROID-SPECTRA-V1.2:SPECTRA_173INO_TAB&resclass=data.product
+
+%R 2005PDSS...31...20S
+%A Sawyer, S.
+%T 190ismene
+%D 02/2005
+%J NASA Planetary Data System, EAR-A-3-RDR-SAWYER-ASTEROID-SPECTRA-V1.2:SPECTRA_190ISMENE_TAB
+%U http://pdsquery.jpl.nasa.gov/query?Identifier=EAR-A-3-RDR-SAWYER-ASTEROID-SPECTRA-V1.2:SPECTRA_190ISMENE_TAB&resclass=data.product
+
+%R 2005PDSS...31...21S
+%A Sawyer, S.
+%T 194prokne
+%D 02/2005
+%J NASA Planetary Data System, EAR-A-3-RDR-SAWYER-ASTEROID-SPECTRA-V1.2:SPECTRA_194PROKNE_TAB
+%U http://pdsquery.jpl.nasa.gov/query?Identifier=EAR-A-3-RDR-SAWYER-ASTEROID-SPECTRA-V1.2:SPECTRA_194PROKNE_TAB&resclass=data.product
+
+%R 2005PDSS...31...22S
+%A Sawyer, S.
+%T 19fortuna1
+%D 02/2005
+%J NASA Planetary Data System, EAR-A-3-RDR-SAWYER-ASTEROID-SPECTRA-V1.2:SPECTRA_19FORTUNA1_TAB
+%U http://pdsquery.jpl.nasa.gov/query?Identifier=EAR-A-3-RDR-SAWYER-ASTEROID-SPECTRA-V1.2:SPECTRA_19FORTUNA1_TAB&resclass=data.product
+
+%R 2005PDSS...31...23S
+%A Sawyer, S.
+%T 19fortuna2
+%D 02/2005
+%J NASA Planetary Data System, EAR-A-3-RDR-SAWYER-ASTEROID-SPECTRA-V1.2:SPECTRA_19FORTUNA2_TAB
+%U http://pdsquery.jpl.nasa.gov/query?Identifier=EAR-A-3-RDR-SAWYER-ASTEROID-SPECTRA-V1.2:SPECTRA_19FORTUNA2_TAB&resclass=data.product
+
+%R 2005PDSS...31...24S
+%A Sawyer, S.
+%T 19fortuna3
+%D 02/2005
+%J NASA Planetary Data System, EAR-A-3-RDR-SAWYER-ASTEROID-SPECTRA-V1.2:SPECTRA_19FORTUNA3_TAB
+%U http://pdsquery.jpl.nasa.gov/query?Identifier=EAR-A-3-RDR-SAWYER-ASTEROID-SPECTRA-V1.2:SPECTRA_19FORTUNA3_TAB&resclass=data.product
+
+%R 2005PDSS...31...25S
+%A Sawyer, S.
+%T 19fortuna4
+%D 02/2005
+%J NASA Planetary Data System, EAR-A-3-RDR-SAWYER-ASTEROID-SPECTRA-V1.2:SPECTRA_19FORTUNA4_TAB
+%U http://pdsquery.jpl.nasa.gov/query?Identifier=EAR-A-3-RDR-SAWYER-ASTEROID-SPECTRA-V1.2:SPECTRA_19FORTUNA4_TAB&resclass=data.product
+
+%R 2005PDSS...31...26S
+%A Sawyer, S.
+%T 203pompeja
+%D 02/2005
+%J NASA Planetary Data System, EAR-A-3-RDR-SAWYER-ASTEROID-SPECTRA-V1.2:SPECTRA_203POMPEJA_TAB
+%U http://pdsquery.jpl.nasa.gov/query?Identifier=EAR-A-3-RDR-SAWYER-ASTEROID-SPECTRA-V1.2:SPECTRA_203POMPEJA_TAB&resclass=data.product
+
+%R 2005PDSS...31...27S
+%A Sawyer, S.
+%T 20massalia1
+%D 02/2005
+%J NASA Planetary Data System, EAR-A-3-RDR-SAWYER-ASTEROID-SPECTRA-V1.2:SPECTRA_20MASSALIA1_TAB
+%U http://pdsquery.jpl.nasa.gov/query?Identifier=EAR-A-3-RDR-SAWYER-ASTEROID-SPECTRA-V1.2:SPECTRA_20MASSALIA1_TAB&resclass=data.product
+
+%R 2005PDSS...31...28S
+%A Sawyer, S.
+%T 20massalia2
+%D 02/2005
+%J NASA Planetary Data System, EAR-A-3-RDR-SAWYER-ASTEROID-SPECTRA-V1.2:SPECTRA_20MASSALIA2_TAB
+%U http://pdsquery.jpl.nasa.gov/query?Identifier=EAR-A-3-RDR-SAWYER-ASTEROID-SPECTRA-V1.2:SPECTRA_20MASSALIA2_TAB&resclass=data.product
+
+%R 2005PDSS...31...29S
+%A Sawyer, S.
+%T 20massalia3
+%D 02/2005
+%J NASA Planetary Data System, EAR-A-3-RDR-SAWYER-ASTEROID-SPECTRA-V1.2:SPECTRA_20MASSALIA3_TAB
+%U http://pdsquery.jpl.nasa.gov/query?Identifier=EAR-A-3-RDR-SAWYER-ASTEROID-SPECTRA-V1.2:SPECTRA_20MASSALIA3_TAB&resclass=data.product
+
+%R 2005PDSS...31...30S
+%A Sawyer, S.
+%T 212medea
+%D 02/2005
+%J NASA Planetary Data System, EAR-A-3-RDR-SAWYER-ASTEROID-SPECTRA-V1.2:SPECTRA_212MEDEA_TAB
+%U http://pdsquery.jpl.nasa.gov/query?Identifier=EAR-A-3-RDR-SAWYER-ASTEROID-SPECTRA-V1.2:SPECTRA_212MEDEA_TAB&resclass=data.product
+
+%R 2005PDSS...31...31S
+%A Sawyer, S.
+%T 230athamantis
+%D 02/2005
+%J NASA Planetary Data System, EAR-A-3-RDR-SAWYER-ASTEROID-SPECTRA-V1.2:SPECTRA_230ATHAMANTIS_TAB
+%U http://pdsquery.jpl.nasa.gov/query?Identifier=EAR-A-3-RDR-SAWYER-ASTEROID-SPECTRA-V1.2:SPECTRA_230ATHAMANTIS_TAB&resclass=data.product
+
+%R 2005PDSS...31...32S
+%A Sawyer, S.
+%T 241germania
+%D 02/2005
+%J NASA Planetary Data System, EAR-A-3-RDR-SAWYER-ASTEROID-SPECTRA-V1.2:SPECTRA_241GERMANIA_TAB
+%U http://pdsquery.jpl.nasa.gov/query?Identifier=EAR-A-3-RDR-SAWYER-ASTEROID-SPECTRA-V1.2:SPECTRA_241GERMANIA_TAB&resclass=data.product
+
+%R 2005PDSS...31...33S
+%A Sawyer, S.
+%T 27euterpe1
+%D 02/2005
+%J NASA Planetary Data System, EAR-A-3-RDR-SAWYER-ASTEROID-SPECTRA-V1.2:SPECTRA_27EUTERPE1_TAB
+%U http://pdsquery.jpl.nasa.gov/query?Identifier=EAR-A-3-RDR-SAWYER-ASTEROID-SPECTRA-V1.2:SPECTRA_27EUTERPE1_TAB&resclass=data.product
+
+%R 2005PDSS...31...34S
+%A Sawyer, S.
+%T 27euterpe2
+%D 02/2005
+%J NASA Planetary Data System, EAR-A-3-RDR-SAWYER-ASTEROID-SPECTRA-V1.2:SPECTRA_27EUTERPE2_TAB
+%U http://pdsquery.jpl.nasa.gov/query?Identifier=EAR-A-3-RDR-SAWYER-ASTEROID-SPECTRA-V1.2:SPECTRA_27EUTERPE2_TAB&resclass=data.product
+
+%R 2005PDSS...31...35S
+%A Sawyer, S.
+%T 27euterpe3
+%D 02/2005
+%J NASA Planetary Data System, EAR-A-3-RDR-SAWYER-ASTEROID-SPECTRA-V1.2:SPECTRA_27EUTERPE3_TAB
+%U http://pdsquery.jpl.nasa.gov/query?Identifier=EAR-A-3-RDR-SAWYER-ASTEROID-SPECTRA-V1.2:SPECTRA_27EUTERPE3_TAB&resclass=data.product
+
+%R 2005PDSS...31...36S
+%A Sawyer, S.
+%T 2pallas1
+%D 02/2005
+%J NASA Planetary Data System, EAR-A-3-RDR-SAWYER-ASTEROID-SPECTRA-V1.2:SPECTRA_2PALLAS1_TAB
+%U http://pdsquery.jpl.nasa.gov/query?Identifier=EAR-A-3-RDR-SAWYER-ASTEROID-SPECTRA-V1.2:SPECTRA_2PALLAS1_TAB&resclass=data.product
+
+%R 2005PDSS...31...37S
+%A Sawyer, S.
+%T 2pallas2
+%D 02/2005
+%J NASA Planetary Data System, EAR-A-3-RDR-SAWYER-ASTEROID-SPECTRA-V1.2:SPECTRA_2PALLAS2_TAB
+%U http://pdsquery.jpl.nasa.gov/query?Identifier=EAR-A-3-RDR-SAWYER-ASTEROID-SPECTRA-V1.2:SPECTRA_2PALLAS2_TAB&resclass=data.product
+
+%R 2005PDSS...31...38S
+%A Sawyer, S.
+%T 2pallas3
+%D 02/2005
+%J NASA Planetary Data System, EAR-A-3-RDR-SAWYER-ASTEROID-SPECTRA-V1.2:SPECTRA_2PALLAS3_TAB
+%U http://pdsquery.jpl.nasa.gov/query?Identifier=EAR-A-3-RDR-SAWYER-ASTEROID-SPECTRA-V1.2:SPECTRA_2PALLAS3_TAB&resclass=data.product
+
+%R 2005PDSS...31...39S
+%A Sawyer, S.
+%T 2pallas4
+%D 02/2005
+%J NASA Planetary Data System, EAR-A-3-RDR-SAWYER-ASTEROID-SPECTRA-V1.2:SPECTRA_2PALLAS4_TAB
+%U http://pdsquery.jpl.nasa.gov/query?Identifier=EAR-A-3-RDR-SAWYER-ASTEROID-SPECTRA-V1.2:SPECTRA_2PALLAS4_TAB&resclass=data.product
+
+%R 2005PDSS...31...40S
+%A Sawyer, S.
+%T 30urania
+%D 02/2005
+%J NASA Planetary Data System, EAR-A-3-RDR-SAWYER-ASTEROID-SPECTRA-V1.2:SPECTRA_30URANIA_TAB
+%U http://pdsquery.jpl.nasa.gov/query?Identifier=EAR-A-3-RDR-SAWYER-ASTEROID-SPECTRA-V1.2:SPECTRA_30URANIA_TAB&resclass=data.product
+
+%R 2005PDSS...31...41S
+%A Sawyer, S.
+%T 329svea
+%D 02/2005
+%J NASA Planetary Data System, EAR-A-3-RDR-SAWYER-ASTEROID-SPECTRA-V1.2:SPECTRA_329SVEA_TAB
+%U http://pdsquery.jpl.nasa.gov/query?Identifier=EAR-A-3-RDR-SAWYER-ASTEROID-SPECTRA-V1.2:SPECTRA_329SVEA_TAB&resclass=data.product
+
+%R 2005PDSS...31...42S
+%A Sawyer, S.
+%T 34circe
+%D 02/2005
+%J NASA Planetary Data System, EAR-A-3-RDR-SAWYER-ASTEROID-SPECTRA-V1.2:SPECTRA_34CIRCE_TAB
+%U http://pdsquery.jpl.nasa.gov/query?Identifier=EAR-A-3-RDR-SAWYER-ASTEROID-SPECTRA-V1.2:SPECTRA_34CIRCE_TAB&resclass=data.product
+
+%R 2005PDSS...31...43S
+%A Sawyer, S.
+%T 386siegena
+%D 02/2005
+%J NASA Planetary Data System, EAR-A-3-RDR-SAWYER-ASTEROID-SPECTRA-V1.2:SPECTRA_386SIEGENA_TAB
+%U http://pdsquery.jpl.nasa.gov/query?Identifier=EAR-A-3-RDR-SAWYER-ASTEROID-SPECTRA-V1.2:SPECTRA_386SIEGENA_TAB&resclass=data.product
+
+%R 2005PDSS...31...44S
+%A Sawyer, S.
+%T 387aquitania
+%D 02/2005
+%J NASA Planetary Data System, EAR-A-3-RDR-SAWYER-ASTEROID-SPECTRA-V1.2:SPECTRA_387AQUITANIA_TAB
+%U http://pdsquery.jpl.nasa.gov/query?Identifier=EAR-A-3-RDR-SAWYER-ASTEROID-SPECTRA-V1.2:SPECTRA_387AQUITANIA_TAB&resclass=data.product
+
+%R 2005PDSS...31...45S
+%A Sawyer, S.
+%T 405thia
+%D 02/2005
+%J NASA Planetary Data System, EAR-A-3-RDR-SAWYER-ASTEROID-SPECTRA-V1.2:SPECTRA_405THIA_TAB
+%U http://pdsquery.jpl.nasa.gov/query?Identifier=EAR-A-3-RDR-SAWYER-ASTEROID-SPECTRA-V1.2:SPECTRA_405THIA_TAB&resclass=data.product
+
+%R 2005PDSS...31...46S
+%A Sawyer, S.
+%T 409aspasia
+%D 02/2005
+%J NASA Planetary Data System, EAR-A-3-RDR-SAWYER-ASTEROID-SPECTRA-V1.2:SPECTRA_409ASPASIA_TAB
+%U http://pdsquery.jpl.nasa.gov/query?Identifier=EAR-A-3-RDR-SAWYER-ASTEROID-SPECTRA-V1.2:SPECTRA_409ASPASIA_TAB&resclass=data.product
+
+%R 2005PDSS...31...47S
+%A Sawyer, S.
+%T 410chloris
+%D 02/2005
+%J NASA Planetary Data System, EAR-A-3-RDR-SAWYER-ASTEROID-SPECTRA-V1.2:SPECTRA_410CHLORIS_TAB
+%U http://pdsquery.jpl.nasa.gov/query?Identifier=EAR-A-3-RDR-SAWYER-ASTEROID-SPECTRA-V1.2:SPECTRA_410CHLORIS_TAB&resclass=data.product
+
+%R 2005PDSS...31...48S
+%A Sawyer, S.
+%T 419aurelia
+%D 02/2005
+%J NASA Planetary Data System, EAR-A-3-RDR-SAWYER-ASTEROID-SPECTRA-V1.2:SPECTRA_419AURELIA_TAB
+%U http://pdsquery.jpl.nasa.gov/query?Identifier=EAR-A-3-RDR-SAWYER-ASTEROID-SPECTRA-V1.2:SPECTRA_419AURELIA_TAB&resclass=data.product
+
+%R 2005PDSS...31...49S
+%A Sawyer, S.
+%T 41daphne
+%D 02/2005
+%J NASA Planetary Data System, EAR-A-3-RDR-SAWYER-ASTEROID-SPECTRA-V1.2:SPECTRA_41DAPHNE_TAB
+%U http://pdsquery.jpl.nasa.gov/query?Identifier=EAR-A-3-RDR-SAWYER-ASTEROID-SPECTRA-V1.2:SPECTRA_41DAPHNE_TAB&resclass=data.product
+
+%R 2005PDSS...31...50S
+%A Sawyer, S.
+%T 431nephele
+%D 02/2005
+%J NASA Planetary Data System, EAR-A-3-RDR-SAWYER-ASTEROID-SPECTRA-V1.2:SPECTRA_431NEPHELE_TAB
+%U http://pdsquery.jpl.nasa.gov/query?Identifier=EAR-A-3-RDR-SAWYER-ASTEROID-SPECTRA-V1.2:SPECTRA_431NEPHELE_TAB&resclass=data.product
+
+%R 2005PDSS...31...51S
+%A Sawyer, S.
+%T 434hungaria
+%D 02/2005
+%J NASA Planetary Data System, EAR-A-3-RDR-SAWYER-ASTEROID-SPECTRA-V1.2:SPECTRA_434HUNGARIA_TAB
+%U http://pdsquery.jpl.nasa.gov/query?Identifier=EAR-A-3-RDR-SAWYER-ASTEROID-SPECTRA-V1.2:SPECTRA_434HUNGARIA_TAB&resclass=data.product
+
+%R 2005PDSS...31...52S
+%A Sawyer, S.
+%T 44nysa
+%D 02/2005
+%J NASA Planetary Data System, EAR-A-3-RDR-SAWYER-ASTEROID-SPECTRA-V1.2:SPECTRA_44NYSA_TAB
+%U http://pdsquery.jpl.nasa.gov/query?Identifier=EAR-A-3-RDR-SAWYER-ASTEROID-SPECTRA-V1.2:SPECTRA_44NYSA_TAB&resclass=data.product
+
+%R 2005PDSS...31...53S
+%A Sawyer, S.
+%T 45eugenia
+%D 02/2005
+%J NASA Planetary Data System, EAR-A-3-RDR-SAWYER-ASTEROID-SPECTRA-V1.2:SPECTRA_45EUGENIA_TAB
+%U http://pdsquery.jpl.nasa.gov/query?Identifier=EAR-A-3-RDR-SAWYER-ASTEROID-SPECTRA-V1.2:SPECTRA_45EUGENIA_TAB&resclass=data.product
+
+%R 2005PDSS...31...54S
+%A Sawyer, S.
+%T 476hedwig
+%D 02/2005
+%J NASA Planetary Data System, EAR-A-3-RDR-SAWYER-ASTEROID-SPECTRA-V1.2:SPECTRA_476HEDWIG_TAB
+%U http://pdsquery.jpl.nasa.gov/query?Identifier=EAR-A-3-RDR-SAWYER-ASTEROID-SPECTRA-V1.2:SPECTRA_476HEDWIG_TAB&resclass=data.product
+
+%R 2005PDSS...31...55S
+%A Sawyer, S.
+%T 48doris
+%D 02/2005
+%J NASA Planetary Data System, EAR-A-3-RDR-SAWYER-ASTEROID-SPECTRA-V1.2:SPECTRA_48DORIS_TAB
+%U http://pdsquery.jpl.nasa.gov/query?Identifier=EAR-A-3-RDR-SAWYER-ASTEROID-SPECTRA-V1.2:SPECTRA_48DORIS_TAB&resclass=data.product
+
+%R 2005PDSS...31...56S
+%A Sawyer, S.
+%T 505cava
+%D 02/2005
+%J NASA Planetary Data System, EAR-A-3-RDR-SAWYER-ASTEROID-SPECTRA-V1.2:SPECTRA_505CAVA_TAB
+%U http://pdsquery.jpl.nasa.gov/query?Identifier=EAR-A-3-RDR-SAWYER-ASTEROID-SPECTRA-V1.2:SPECTRA_505CAVA_TAB&resclass=data.product
+
+%R 2005PDSS...31...57S
+%A Sawyer, S.
+%T 511davida
+%D 02/2005
+%J NASA Planetary Data System, EAR-A-3-RDR-SAWYER-ASTEROID-SPECTRA-V1.2:SPECTRA_511DAVIDA_TAB
+%U http://pdsquery.jpl.nasa.gov/query?Identifier=EAR-A-3-RDR-SAWYER-ASTEROID-SPECTRA-V1.2:SPECTRA_511DAVIDA_TAB&resclass=data.product
+
+%R 2005PDSS...31...58S
+%A Sawyer, S.
+%T 51nemausa1
+%D 02/2005
+%J NASA Planetary Data System, EAR-A-3-RDR-SAWYER-ASTEROID-SPECTRA-V1.2:SPECTRA_51NEMAUSA1_TAB
+%U http://pdsquery.jpl.nasa.gov/query?Identifier=EAR-A-3-RDR-SAWYER-ASTEROID-SPECTRA-V1.2:SPECTRA_51NEMAUSA1_TAB&resclass=data.product
+
+%R 2005PDSS...31...59S
+%A Sawyer, S.
+%T 51nemausa2
+%D 02/2005
+%J NASA Planetary Data System, EAR-A-3-RDR-SAWYER-ASTEROID-SPECTRA-V1.2:SPECTRA_51NEMAUSA2_TAB
+%U http://pdsquery.jpl.nasa.gov/query?Identifier=EAR-A-3-RDR-SAWYER-ASTEROID-SPECTRA-V1.2:SPECTRA_51NEMAUSA2_TAB&resclass=data.product
+
+%R 2005PDSS...31...60S
+%A Sawyer, S.
+%T 51nemausa3
+%D 02/2005
+%J NASA Planetary Data System, EAR-A-3-RDR-SAWYER-ASTEROID-SPECTRA-V1.2:SPECTRA_51NEMAUSA3_TAB
+%U http://pdsquery.jpl.nasa.gov/query?Identifier=EAR-A-3-RDR-SAWYER-ASTEROID-SPECTRA-V1.2:SPECTRA_51NEMAUSA3_TAB&resclass=data.product
+
+%R 2005PDSS...31...61S
+%A Sawyer, S.
+%T 51nemausa4
+%D 02/2005
+%J NASA Planetary Data System, EAR-A-3-RDR-SAWYER-ASTEROID-SPECTRA-V1.2:SPECTRA_51NEMAUSA4_TAB
+%U http://pdsquery.jpl.nasa.gov/query?Identifier=EAR-A-3-RDR-SAWYER-ASTEROID-SPECTRA-V1.2:SPECTRA_51NEMAUSA4_TAB&resclass=data.product
+
+%R 2005PDSS...31...62S
+%A Sawyer, S.
+%T 51nemausa5
+%D 02/2005
+%J NASA Planetary Data System, EAR-A-3-RDR-SAWYER-ASTEROID-SPECTRA-V1.2:SPECTRA_51NEMAUSA5_TAB
+%U http://pdsquery.jpl.nasa.gov/query?Identifier=EAR-A-3-RDR-SAWYER-ASTEROID-SPECTRA-V1.2:SPECTRA_51NEMAUSA5_TAB&resclass=data.product
+
+%R 2005PDSS...31...63S
+%A Sawyer, S.
+%T 51nemausa6
+%D 02/2005
+%J NASA Planetary Data System, EAR-A-3-RDR-SAWYER-ASTEROID-SPECTRA-V1.2:SPECTRA_51NEMAUSA6_TAB
+%U http://pdsquery.jpl.nasa.gov/query?Identifier=EAR-A-3-RDR-SAWYER-ASTEROID-SPECTRA-V1.2:SPECTRA_51NEMAUSA6_TAB&resclass=data.product
+
+%R 2005PDSS...31...64S
+%A Sawyer, S.
+%T 52europa1
+%D 02/2005
+%J NASA Planetary Data System, EAR-A-3-RDR-SAWYER-ASTEROID-SPECTRA-V1.2:SPECTRA_52EUROPA1_TAB
+%U http://pdsquery.jpl.nasa.gov/query?Identifier=EAR-A-3-RDR-SAWYER-ASTEROID-SPECTRA-V1.2:SPECTRA_52EUROPA1_TAB&resclass=data.product
+
+%R 2005PDSS...31...65S
+%A Sawyer, S.
+%T 52europa2
+%D 02/2005
+%J NASA Planetary Data System, EAR-A-3-RDR-SAWYER-ASTEROID-SPECTRA-V1.2:SPECTRA_52EUROPA2_TAB
+%U http://pdsquery.jpl.nasa.gov/query?Identifier=EAR-A-3-RDR-SAWYER-ASTEROID-SPECTRA-V1.2:SPECTRA_52EUROPA2_TAB&resclass=data.product
+
+%R 2005PDSS...31...66S
+%A Sawyer, S.
+%T 52europa3
+%D 02/2005
+%J NASA Planetary Data System, EAR-A-3-RDR-SAWYER-ASTEROID-SPECTRA-V1.2:SPECTRA_52EUROPA3_TAB
+%U http://pdsquery.jpl.nasa.gov/query?Identifier=EAR-A-3-RDR-SAWYER-ASTEROID-SPECTRA-V1.2:SPECTRA_52EUROPA3_TAB&resclass=data.product
+
+%R 2005PDSS...31...67S
+%A Sawyer, S.
+%T 532herculina
+%D 02/2005
+%J NASA Planetary Data System, EAR-A-3-RDR-SAWYER-ASTEROID-SPECTRA-V1.2:SPECTRA_532HERCULINA_TAB
+%U http://pdsquery.jpl.nasa.gov/query?Identifier=EAR-A-3-RDR-SAWYER-ASTEROID-SPECTRA-V1.2:SPECTRA_532HERCULINA_TAB&resclass=data.product
+
+%R 2005PDSS...31...68S
+%A Sawyer, S.
+%T 537pauly
+%D 02/2005
+%J NASA Planetary Data System, EAR-A-3-RDR-SAWYER-ASTEROID-SPECTRA-V1.2:SPECTRA_537PAULY_TAB
+%U http://pdsquery.jpl.nasa.gov/query?Identifier=EAR-A-3-RDR-SAWYER-ASTEROID-SPECTRA-V1.2:SPECTRA_537PAULY_TAB&resclass=data.product
+
+%R 2005PDSS...31...69S
+%A Sawyer, S.
+%T 54alexandra1
+%D 02/2005
+%J NASA Planetary Data System, EAR-A-3-RDR-SAWYER-ASTEROID-SPECTRA-V1.2:SPECTRA_54ALEXANDRA1_TAB
+%U http://pdsquery.jpl.nasa.gov/query?Identifier=EAR-A-3-RDR-SAWYER-ASTEROID-SPECTRA-V1.2:SPECTRA_54ALEXANDRA1_TAB&resclass=data.product
+
+%R 2005PDSS...31...70S
+%A Sawyer, S.
+%T 54alexandra2
+%D 02/2005
+%J NASA Planetary Data System, EAR-A-3-RDR-SAWYER-ASTEROID-SPECTRA-V1.2:SPECTRA_54ALEXANDRA2_TAB
+%U http://pdsquery.jpl.nasa.gov/query?Identifier=EAR-A-3-RDR-SAWYER-ASTEROID-SPECTRA-V1.2:SPECTRA_54ALEXANDRA2_TAB&resclass=data.product
+
+%R 2005PDSS...31...71S
+%A Sawyer, S.
+%T 54alexandra3
+%D 02/2005
+%J NASA Planetary Data System, EAR-A-3-RDR-SAWYER-ASTEROID-SPECTRA-V1.2:SPECTRA_54ALEXANDRA3_TAB
+%U http://pdsquery.jpl.nasa.gov/query?Identifier=EAR-A-3-RDR-SAWYER-ASTEROID-SPECTRA-V1.2:SPECTRA_54ALEXANDRA3_TAB&resclass=data.product
+
+%R 2005PDSS...31...72S
+%A Sawyer, S.
+%T 57mnemosyne
+%D 02/2005
+%J NASA Planetary Data System, EAR-A-3-RDR-SAWYER-ASTEROID-SPECTRA-V1.2:SPECTRA_57MNEMOSYNE_TAB
+%U http://pdsquery.jpl.nasa.gov/query?Identifier=EAR-A-3-RDR-SAWYER-ASTEROID-SPECTRA-V1.2:SPECTRA_57MNEMOSYNE_TAB&resclass=data.product
+
+%R 2005PDSS...31...73S
+%A Sawyer, S.
+%T 5astraea1
+%D 02/2005
+%J NASA Planetary Data System, EAR-A-3-RDR-SAWYER-ASTEROID-SPECTRA-V1.2:SPECTRA_5ASTRAEA1_TAB
+%U http://pdsquery.jpl.nasa.gov/query?Identifier=EAR-A-3-RDR-SAWYER-ASTEROID-SPECTRA-V1.2:SPECTRA_5ASTRAEA1_TAB&resclass=data.product
+
+%R 2005PDSS...31...74S
+%A Sawyer, S.
+%T 5astraea2
+%D 02/2005
+%J NASA Planetary Data System, EAR-A-3-RDR-SAWYER-ASTEROID-SPECTRA-V1.2:SPECTRA_5ASTRAEA2_TAB
+%U http://pdsquery.jpl.nasa.gov/query?Identifier=EAR-A-3-RDR-SAWYER-ASTEROID-SPECTRA-V1.2:SPECTRA_5ASTRAEA2_TAB&resclass=data.product
+
+%R 2005PDSS...31...75S
+%A Sawyer, S.
+%T 602marianna
+%D 02/2005
+%J NASA Planetary Data System, EAR-A-3-RDR-SAWYER-ASTEROID-SPECTRA-V1.2:SPECTRA_602MARIANNA_TAB
+%U http://pdsquery.jpl.nasa.gov/query?Identifier=EAR-A-3-RDR-SAWYER-ASTEROID-SPECTRA-V1.2:SPECTRA_602MARIANNA_TAB&resclass=data.product
+
+%R 2005PDSS...31...76S
+%A Sawyer, S.
+%T 617patroclus
+%D 02/2005
+%J NASA Planetary Data System, EAR-A-3-RDR-SAWYER-ASTEROID-SPECTRA-V1.2:SPECTRA_617PATROCLUS_TAB
+%U http://pdsquery.jpl.nasa.gov/query?Identifier=EAR-A-3-RDR-SAWYER-ASTEROID-SPECTRA-V1.2:SPECTRA_617PATROCLUS_TAB&resclass=data.product
+
+%R 2005PDSS...31...77S
+%A Sawyer, S.
+%T 63ausonia
+%D 02/2005
+%J NASA Planetary Data System, EAR-A-3-RDR-SAWYER-ASTEROID-SPECTRA-V1.2:SPECTRA_63AUSONIA_TAB
+%U http://pdsquery.jpl.nasa.gov/query?Identifier=EAR-A-3-RDR-SAWYER-ASTEROID-SPECTRA-V1.2:SPECTRA_63AUSONIA_TAB&resclass=data.product
+
+%R 2005PDSS...31...78S
+%A Sawyer, S.
+%T 64angelina
+%D 02/2005
+%J NASA Planetary Data System, EAR-A-3-RDR-SAWYER-ASTEROID-SPECTRA-V1.2:SPECTRA_64ANGELINA_TAB
+%U http://pdsquery.jpl.nasa.gov/query?Identifier=EAR-A-3-RDR-SAWYER-ASTEROID-SPECTRA-V1.2:SPECTRA_64ANGELINA_TAB&resclass=data.product
+
+%R 2005PDSS...31...79S
+%A Sawyer, S.
+%T 65cybele
+%D 02/2005
+%J NASA Planetary Data System, EAR-A-3-RDR-SAWYER-ASTEROID-SPECTRA-V1.2:SPECTRA_65CYBELE_TAB
+%U http://pdsquery.jpl.nasa.gov/query?Identifier=EAR-A-3-RDR-SAWYER-ASTEROID-SPECTRA-V1.2:SPECTRA_65CYBELE_TAB&resclass=data.product
+
+%R 2005PDSS...31...80S
+%A Sawyer, S.
+%T 702alauda
+%D 02/2005
+%J NASA Planetary Data System, EAR-A-3-RDR-SAWYER-ASTEROID-SPECTRA-V1.2:SPECTRA_702ALAUDA_TAB
+%U http://pdsquery.jpl.nasa.gov/query?Identifier=EAR-A-3-RDR-SAWYER-ASTEROID-SPECTRA-V1.2:SPECTRA_702ALAUDA_TAB&resclass=data.product
+
+%R 2005PDSS...31...81S
+%A Sawyer, S.
+%T 704interamnia1
+%D 02/2005
+%J NASA Planetary Data System, EAR-A-3-RDR-SAWYER-ASTEROID-SPECTRA-V1.2:SPECTRA_704INTERAMNIA1_TAB
+%U http://pdsquery.jpl.nasa.gov/query?Identifier=EAR-A-3-RDR-SAWYER-ASTEROID-SPECTRA-V1.2:SPECTRA_704INTERAMNIA1_TAB&resclass=data.product
+
+%R 2005PDSS...31...82S
+%A Sawyer, S.
+%T 704interamnia2
+%D 02/2005
+%J NASA Planetary Data System, EAR-A-3-RDR-SAWYER-ASTEROID-SPECTRA-V1.2:SPECTRA_704INTERAMNIA2_TAB
+%U http://pdsquery.jpl.nasa.gov/query?Identifier=EAR-A-3-RDR-SAWYER-ASTEROID-SPECTRA-V1.2:SPECTRA_704INTERAMNIA2_TAB&resclass=data.product
+
+%R 2005PDSS...31...83S
+%A Sawyer, S.
+%T 704interamnia3
+%D 02/2005
+%J NASA Planetary Data System, EAR-A-3-RDR-SAWYER-ASTEROID-SPECTRA-V1.2:SPECTRA_704INTERAMNIA3_TAB
+%U http://pdsquery.jpl.nasa.gov/query?Identifier=EAR-A-3-RDR-SAWYER-ASTEROID-SPECTRA-V1.2:SPECTRA_704INTERAMNIA3_TAB&resclass=data.product
+
+%R 2005PDSS...31...84S
+%A Sawyer, S.
+%T 70panopaea
+%D 02/2005
+%J NASA Planetary Data System, EAR-A-3-RDR-SAWYER-ASTEROID-SPECTRA-V1.2:SPECTRA_70PANOPAEA_TAB
+%U http://pdsquery.jpl.nasa.gov/query?Identifier=EAR-A-3-RDR-SAWYER-ASTEROID-SPECTRA-V1.2:SPECTRA_70PANOPAEA_TAB&resclass=data.product
+
+%R 2005PDSS...31...85S
+%A Sawyer, S.
+%T 712boliviana
+%D 02/2005
+%J NASA Planetary Data System, EAR-A-3-RDR-SAWYER-ASTEROID-SPECTRA-V1.2:SPECTRA_712BOLIVIANA_TAB
+%U http://pdsquery.jpl.nasa.gov/query?Identifier=EAR-A-3-RDR-SAWYER-ASTEROID-SPECTRA-V1.2:SPECTRA_712BOLIVIANA_TAB&resclass=data.product
+
+%R 2005PDSS...31...86S
+%A Sawyer, S.
+%T 72feronia
+%D 02/2005
+%J NASA Planetary Data System, EAR-A-3-RDR-SAWYER-ASTEROID-SPECTRA-V1.2:SPECTRA_72FERONIA_TAB
+%U http://pdsquery.jpl.nasa.gov/query?Identifier=EAR-A-3-RDR-SAWYER-ASTEROID-SPECTRA-V1.2:SPECTRA_72FERONIA_TAB&resclass=data.product
+
+%R 2005PDSS...31...87S
+%A Sawyer, S.
+%T 804hispania
+%D 02/2005
+%J NASA Planetary Data System, EAR-A-3-RDR-SAWYER-ASTEROID-SPECTRA-V1.2:SPECTRA_804HISPANIA_TAB
+%U http://pdsquery.jpl.nasa.gov/query?Identifier=EAR-A-3-RDR-SAWYER-ASTEROID-SPECTRA-V1.2:SPECTRA_804HISPANIA_TAB&resclass=data.product
+
+%R 2005PDSS...31...88S
+%A Sawyer, S.
+%T 85io
+%D 02/2005
+%J NASA Planetary Data System, EAR-A-3-RDR-SAWYER-ASTEROID-SPECTRA-V1.2:SPECTRA_85IO_TAB
+%U http://pdsquery.jpl.nasa.gov/query?Identifier=EAR-A-3-RDR-SAWYER-ASTEROID-SPECTRA-V1.2:SPECTRA_85IO_TAB&resclass=data.product
+
+%R 2005PDSS...31...89S
+%A Sawyer, S.
+%T 87sylvia
+%D 02/2005
+%J NASA Planetary Data System, EAR-A-3-RDR-SAWYER-ASTEROID-SPECTRA-V1.2:SPECTRA_87SYLVIA_TAB
+%U http://pdsquery.jpl.nasa.gov/query?Identifier=EAR-A-3-RDR-SAWYER-ASTEROID-SPECTRA-V1.2:SPECTRA_87SYLVIA_TAB&resclass=data.product
+
+%R 2005PDSS...31...90S
+%A Sawyer, S.
+%T 91aegina
+%D 02/2005
+%J NASA Planetary Data System, EAR-A-3-RDR-SAWYER-ASTEROID-SPECTRA-V1.2:SPECTRA_91AEGINA_TAB
+%U http://pdsquery.jpl.nasa.gov/query?Identifier=EAR-A-3-RDR-SAWYER-ASTEROID-SPECTRA-V1.2:SPECTRA_91AEGINA_TAB&resclass=data.product
+
+%R 2005PDSS...31...91S
+%A Sawyer, S.
+%T 93minerva
+%D 02/2005
+%J NASA Planetary Data System, EAR-A-3-RDR-SAWYER-ASTEROID-SPECTRA-V1.2:SPECTRA_93MINERVA_TAB
+%U http://pdsquery.jpl.nasa.gov/query?Identifier=EAR-A-3-RDR-SAWYER-ASTEROID-SPECTRA-V1.2:SPECTRA_93MINERVA_TAB&resclass=data.product
+
+%R 2005PDSS...31...92S
+%A Sawyer, S.
+%T 95arethusa
+%D 02/2005
+%J NASA Planetary Data System, EAR-A-3-RDR-SAWYER-ASTEROID-SPECTRA-V1.2:SPECTRA_95ARETHUSA_TAB
+%U http://pdsquery.jpl.nasa.gov/query?Identifier=EAR-A-3-RDR-SAWYER-ASTEROID-SPECTRA-V1.2:SPECTRA_95ARETHUSA_TAB&resclass=data.product
+
+%R 2005PDSS...31...93S
+%A Sawyer, S.
+%T 98ianthe
+%D 02/2005
+%J NASA Planetary Data System, EAR-A-3-RDR-SAWYER-ASTEROID-SPECTRA-V1.2:SPECTRA_98IANTHE_TAB
+%U http://pdsquery.jpl.nasa.gov/query?Identifier=EAR-A-3-RDR-SAWYER-ASTEROID-SPECTRA-V1.2:SPECTRA_98IANTHE_TAB&resclass=data.product
+
+%R 2005PDSS...31...94S
+%A Sawyer, S.
+%T 9metis1
+%D 02/2005
+%J NASA Planetary Data System, EAR-A-3-RDR-SAWYER-ASTEROID-SPECTRA-V1.2:SPECTRA_9METIS1_TAB
+%U http://pdsquery.jpl.nasa.gov/query?Identifier=EAR-A-3-RDR-SAWYER-ASTEROID-SPECTRA-V1.2:SPECTRA_9METIS1_TAB&resclass=data.product
+
+%R 2005PDSS...31...95S
+%A Sawyer, S.
+%T 9metis2
+%D 02/2005
+%J NASA Planetary Data System, EAR-A-3-RDR-SAWYER-ASTEROID-SPECTRA-V1.2:SPECTRA_9METIS2_TAB
+%U http://pdsquery.jpl.nasa.gov/query?Identifier=EAR-A-3-RDR-SAWYER-ASTEROID-SPECTRA-V1.2:SPECTRA_9METIS2_TAB&resclass=data.product
+
+%R 2005PDSS...31...96S
+%A Sawyer, S.
+%T 9metis3
+%D 02/2005
+%J NASA Planetary Data System, EAR-A-3-RDR-SAWYER-ASTEROID-SPECTRA-V1.2:SPECTRA_9METIS3_TAB
+%U http://pdsquery.jpl.nasa.gov/query?Identifier=EAR-A-3-RDR-SAWYER-ASTEROID-SPECTRA-V1.2:SPECTRA_9METIS3_TAB&resclass=data.product
+

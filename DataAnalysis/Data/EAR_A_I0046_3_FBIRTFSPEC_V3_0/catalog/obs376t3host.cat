@@ -1,0 +1,77 @@
+PDS_VERSION_ID                     = PDS3                                     
+RECORD_TYPE                        = "STREAM"                                 
+LABEL_REVISION_NOTE                = "FEB 2002:  Barett McGavock (SBN)        
+        created.                                                              
+        JUN 2006:  David Tarico removed LUKAC&MILLER2000 reference;           
+        2007-02-24: Additional information provided by Bobby Bus.             
+        JUN 2009: Jesse Stone/Michael Wendell corrected error in the          
+        LATITUDE/LONGITUDE"                                                   
+                                                                              
+OBJECT                             = INSTRUMENT_HOST                          
+  INSTRUMENT_HOST_ID               = "OBS376T3"                               
+  OBJECT                           = INSTRUMENT_HOST_INFORMATION              
+    INSTRUMENT_HOST_NAME           = "MAUNA KEA OBSERVATORY 3.0-M NASA        
+        INFRARED TELESCOPE FACILITY (IRTF)"                                   
+    INSTRUMENT_HOST_TYPE           = "EARTH BASED"                            
+    INSTRUMENT_HOST_DESC           = "                                        
+                                                                              
+                                                                              
+  Instrument Host Overview                                                    
+  ========================                                                    
+                                                                              
+  The NASA Infrared Telescope Facility is a 3.0-meter equatorial-mount        
+  telescope located near the summit of Mauna Kea on the island of Hawaii.     
+  Optimized for infrared observations, the NASA IRTF utilizes a f/37          
+  Cassegrain focus that produces an image scale of 1.84 arcsec / mm over an   
+  unvignetted field-of-view approximately 2 arcminutes in diameter.           
+                                                                              
+                                                                              
+  Location                                                                    
+  ========                                                                    
+                                                                              
+  The observatory location data given here are geodetic latitude and east     
+  longitude, based on values from the Astronomical Almanac, 1989. The         
+  geocentric site radius was determined using the MERIT 1983 earth figure,    
+  equatorial radius = 6378.137 km and flattening of the reference spheroid =  
+  1/298.257.                                                                  
+                                                                              
+                                                                              
+      Latitude:                       19.829   Degrees                        
+                                                                              
+      Longitude:                    -155.475   Degrees                        
+                                                                              
+      Earth radius at observatory:  6379.9     Kilometers                     
+                                                                              
+      Altitude:                     4168.1     Meters                         
+                                                                              
+                                                                              
+        GROUP                        = OBSERVATORY_PARAMETERS                 
+          OBSERVATORY_ID             = 'OBS376'                               
+          NAME                       = 'MAUNA KEA OBSERVATORY'                
+          COUNTRY                    = 'USA'                                  
+          ADDRESS                    = 'University of Hawaii;                 
+                                        Institute for Astronomy;              
+                                        2680 Woodlawn Drive;                  
+                                        Honolulu, Oahu, Hawaii'               
+        END_GROUP                    = OBSERVATORY_PARAMETERS                 
+                                                                              
+        GROUP                        = TELESCOPE_PARAMETERS                   
+          TELESCOPE_ID               = 'T3'                                   
+          NAME                       = '3.0-M NASA INFRARED TELESCOPE FACILITY
+  (IRTF)'                                                                     
+          APERTURE                   = 3.0 <METERS>                           
+          LONGITUDE                  = -155.472000 /* -155 28 19.20 E */      
+          LATITUDE                   =   19.826223 /* +19 49 34.4 */          
+          ALTITUDE                   = 4168 <METERS>                          
+          COORDINATE_TYPE            = 'Aerial survey - North American (1983) 
+  datum'                                                                      
+        END_GROUP                    = TELESCOPE_PARAMETERS"                  
+                                                                              
+  END_OBJECT                       = INSTRUMENT_HOST_INFORMATION              
+                                                                              
+  OBJECT                           = INSTRUMENT_HOST_REFERENCE_INFO           
+    REFERENCE_KEY_ID               = "N/A"                                    
+  END_OBJECT                       = INSTRUMENT_HOST_REFERENCE_INFO           
+                                                                              
+END_OBJECT                         = INSTRUMENT_HOST                          
+END                                                                           

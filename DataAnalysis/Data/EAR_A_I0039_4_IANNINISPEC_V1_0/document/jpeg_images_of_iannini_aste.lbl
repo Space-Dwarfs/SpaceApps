@@ -1,0 +1,126 @@
+PDS_VERSION_ID                     = PDS3                                     
+RECORD_TYPE                        = "STREAM"                                 
+DATA_SET_ID                        = "EAR-A-I0039-4-IANNINISPEC-V1.0"         
+                                                                              
+^DOCUMENT                          = "122633.jpg"                             
+^DOCUMENT                          = "122636.jpg"                             
+^DOCUMENT                          = "147311.jpg"                             
+^DOCUMENT                          = "150781.jpg"                             
+^DOCUMENT                          = "1999re.jpg"                             
+^DOCUMENT                          = "2000ro76.jpg"                           
+^DOCUMENT                          = "61207.jpg"                              
+^DOCUMENT                          = "61928.jpg"                              
+^DOCUMENT                          = "81550.jpg"                              
+^DOCUMENT                          = "87239.jpg"                              
+^DOCUMENT                          = "88187.jpg"                              
+                                                                              
+OBJECT                             = DOCUMENT                                 
+   DOCUMENT_NAME                   = "JPEG IMAGES OF IANNINI ASTEROID SPECTRA"
+   PUBLICATION_DATE                = 2009-09-10 /* Label Generated */         
+   DOCUMENT_TOPIC_TYPE             = "REFLECTANCE SPECTRA"                    
+   INTERCHANGE_FORMAT              = "BINARY"                                 
+   DOCUMENT_FORMAT                 = "JPG"                                    
+   DESCRIPTION                     = "These JPEG files are images of the 1D   
+        reflectance spectra included within this data set."                   
+END_OBJECT                         = DOCUMENT                                 
+                                                                              
+OBJECT                             = DOCUMENT                                 
+   DOCUMENT_NAME                   = "JPEG IMAGES OF IANNINI ASTEROID SPECTRA"
+   PUBLICATION_DATE                = 2009-09-10 /* Label Generated */         
+   DOCUMENT_TOPIC_TYPE             = "REFLECTANCE SPECTRA"                    
+   INTERCHANGE_FORMAT              = "BINARY"                                 
+   DOCUMENT_FORMAT                 = "JPG"                                    
+   DESCRIPTION                     = "These JPEG files are images of the 1D   
+        reflectance spectra included within this data set."                   
+END_OBJECT                         = DOCUMENT                                 
+                                                                              
+OBJECT                             = DOCUMENT                                 
+   DOCUMENT_NAME                   = "JPEG IMAGES OF IANNINI ASTEROID SPECTRA"
+   PUBLICATION_DATE                = 2009-09-10 /* Label Generated */         
+   DOCUMENT_TOPIC_TYPE             = "REFLECTANCE SPECTRA"                    
+   INTERCHANGE_FORMAT              = "BINARY"                                 
+   DOCUMENT_FORMAT                 = "JPG"                                    
+   DESCRIPTION                     = "These JPEG files are images of the 1D   
+        reflectance spectra included within this data set."                   
+END_OBJECT                         = DOCUMENT                                 
+                                                                              
+OBJECT                             = DOCUMENT                                 
+   DOCUMENT_NAME                   = "JPEG IMAGES OF IANNINI ASTEROID SPECTRA"
+   PUBLICATION_DATE                = 2009-09-10 /* Label Generated */         
+   DOCUMENT_TOPIC_TYPE             = "REFLECTANCE SPECTRA"                    
+   INTERCHANGE_FORMAT              = "BINARY"                                 
+   DOCUMENT_FORMAT                 = "JPG"                                    
+   DESCRIPTION                     = "These JPEG files are images of the 1D   
+        reflectance spectra included within this data set."                   
+END_OBJECT                         = DOCUMENT                                 
+                                                                              
+OBJECT                             = DOCUMENT                                 
+   DOCUMENT_NAME                   = "JPEG IMAGES OF IANNINI ASTEROID SPECTRA"
+   PUBLICATION_DATE                = 2009-09-10 /* Label Generated */         
+   DOCUMENT_TOPIC_TYPE             = "REFLECTANCE SPECTRA"                    
+   INTERCHANGE_FORMAT              = "BINARY"                                 
+   DOCUMENT_FORMAT                 = "JPG"                                    
+   DESCRIPTION                     = "These JPEG files are images of the 1D   
+        reflectance spectra included within this data set."                   
+END_OBJECT                         = DOCUMENT                                 
+                                                                              
+OBJECT                             = DOCUMENT                                 
+   DOCUMENT_NAME                   = "JPEG IMAGES OF IANNINI ASTEROID SPECTRA"
+   PUBLICATION_DATE                = 2009-09-10 /* Label Generated */         
+   DOCUMENT_TOPIC_TYPE             = "REFLECTANCE SPECTRA"                    
+   INTERCHANGE_FORMAT              = "BINARY"                                 
+   DOCUMENT_FORMAT                 = "JPG"                                    
+   DESCRIPTION                     = "These JPEG files are images of the 1D   
+        reflectance spectra included within this data set."                   
+END_OBJECT                         = DOCUMENT                                 
+                                                                              
+OBJECT                             = DOCUMENT                                 
+   DOCUMENT_NAME                   = "JPEG IMAGES OF IANNINI ASTEROID SPECTRA"
+   PUBLICATION_DATE                = 2009-09-10 /* Label Generated */         
+   DOCUMENT_TOPIC_TYPE             = "REFLECTANCE SPECTRA"                    
+   INTERCHANGE_FORMAT              = "BINARY"                                 
+   DOCUMENT_FORMAT                 = "JPG"                                    
+   DESCRIPTION                     = "These JPEG files are images of the 1D   
+        reflectance spectra included within this data set."                   
+END_OBJECT                         = DOCUMENT                                 
+                                                                              
+OBJECT                             = DOCUMENT                                 
+   DOCUMENT_NAME                   = "JPEG IMAGES OF IANNINI ASTEROID SPECTRA"
+   PUBLICATION_DATE                = 2009-09-10 /* Label Generated */         
+   DOCUMENT_TOPIC_TYPE             = "REFLECTANCE SPECTRA"                    
+   INTERCHANGE_FORMAT              = "BINARY"                                 
+   DOCUMENT_FORMAT                 = "JPG"                                    
+   DESCRIPTION                     = "These JPEG files are images of the 1D   
+        reflectance spectra included within this data set."                   
+END_OBJECT                         = DOCUMENT                                 
+                                                                              
+OBJECT                             = DOCUMENT                                 
+   DOCUMENT_NAME                   = "JPEG IMAGES OF IANNINI ASTEROID SPECTRA"
+   PUBLICATION_DATE                = 2009-09-10 /* Label Generated */         
+   DOCUMENT_TOPIC_TYPE             = "REFLECTANCE SPECTRA"                    
+   INTERCHANGE_FORMAT              = "BINARY"                                 
+   DOCUMENT_FORMAT                 = "JPG"                                    
+   DESCRIPTION                     = "These JPEG files are images of the 1D   
+        reflectance spectra included within this data set."                   
+END_OBJECT                         = DOCUMENT                                 
+                                                                              
+OBJECT                             = DOCUMENT                                 
+   DOCUMENT_NAME                   = "JPEG IMAGES OF IANNINI ASTEROID SPECTRA"
+   PUBLICATION_DATE                = 2009-09-10 /* Label Generated */         
+   DOCUMENT_TOPIC_TYPE             = "REFLECTANCE SPECTRA"                    
+   INTERCHANGE_FORMAT              = "BINARY"                                 
+   DOCUMENT_FORMAT                 = "JPG"                                    
+   DESCRIPTION                     = "These JPEG files are images of the 1D   
+        reflectance spectra included within this data set."                   
+END_OBJECT                         = DOCUMENT                                 
+                                                                              
+OBJECT                             = DOCUMENT                                 
+   DOCUMENT_NAME                   = "JPEG IMAGES OF IANNINI ASTEROID SPECTRA"
+   PUBLICATION_DATE                = 2009-09-10 /* Label Generated */         
+   DOCUMENT_TOPIC_TYPE             = "REFLECTANCE SPECTRA"                    
+   INTERCHANGE_FORMAT              = "BINARY"                                 
+   DOCUMENT_FORMAT                 = "JPG"                                    
+   DESCRIPTION                     = "These JPEG files are images of the 1D   
+        reflectance spectra included within this data set."                   
+END_OBJECT                         = DOCUMENT                                 
+END                                                                           

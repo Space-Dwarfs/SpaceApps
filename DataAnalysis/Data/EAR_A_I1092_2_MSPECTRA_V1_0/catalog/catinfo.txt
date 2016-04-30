@@ -1,0 +1,49 @@
+PDS_VERSION_ID                     = PDS3                                     
+RECORD_TYPE                        = STREAM                                   
+                                                                              
+OBJECT                             = TEXT                                     
+   PUBLICATION_DATE                = 2011-08-15  /*Label Generated*/          
+   NOTE                            = "Description of the contents of the      
+        catalog directory."                                                   
+END_OBJECT                         = TEXT                                     
+END                                                                           
+                                                                              
+                                                                              
+This directory contains the PDS catalog files for this data set. Instrument   
+host file names end in "host.cat". Instrument file names end in "inst.cat".   
+Target files, if any, are located in the TARGET sub-directory.                
+                                                                              
+                   catalog Directory Contents                                 
+                                                                              
+catinfo.txt - The file you are reading.                                       
+                                                                              
+dataset.cat - The catalog file for the data set "Fornasier Spectra of M       
+        Asteroids V1.0".                                                      
+                                                                              
+i0046inst.cat - The catalog file for the instrument "SpeX".                   
+                                                                              
+i0373inst.cat - The catalog file for the instrument "ESO Multi-Mode           
+        Instrument: RILD Mode".                                               
+                                                                              
+i1092inst.cat - The catalog file for the instrument "DOLORES (Device Optimized
+        for LOw RESolution)".                                                 
+                                                                              
+i1093inst.cat - The catalog file for the instrument "Near Infrared Camera     
+        Spectrometer (NICS)".                                                 
+                                                                              
+i1094inst.cat - The catalog file for the instrument "SOFI (Son OF Isaac)".    
+                                                                              
+mission.cat - The catalog file for the mission "Support Archives".            
+                                                                              
+obs270t7host.cat - The catalog file for the instrument host "Roque de los     
+        Muchachos Observatory 3.5-m Galileo Zeiss Ritchey-Chretien altazimuth 
+        reflector".                                                           
+                                                                              
+obs056t9host.cat - The catalog file for the instrument host "European Southern
+        Observatory New Technology Telescope (NTT)".                          
+                                                                              
+obs376t3host.cat - The catalog file for the instrument host "Mauna Kea        
+        Observatory 3.0-m NASA Infrared Telescope Facility (IRTF)".           
+                                                                              
+ref.cat - A listing of all publications referenced in the data set.  This is  
+        analogous to a bibliography for the data set.                         

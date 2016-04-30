@@ -1,0 +1,222 @@
+PDS_VERSION_ID                     = PDS3                                     
+                                                                              
+RECORD_TYPE                        = "FIXED_LENGTH"                           
+RECORD_BYTES                       = 100                                      
+FILE_RECORDS                       = 94                                       
+                                                                              
+^TABLE                             = "sawindex.tab"                           
+                                                                              
+DATA_SET_ID                        =                                          
+        "EAR-A-3-RDR-SAWYER-ASTEROID-SPECTRA-V1.2"                            
+PRODUCT_NAME                       = "SAWYER ASTEROID SPECTRA - INDEX"        
+PRODUCT_ID                         = "SAWINDEX_TAB"                           
+INSTRUMENT_HOST_ID                 = { "MCD27", "MCD21" }                     
+INSTRUMENT_HOST_NAME               = { "MCDONALD OBSERVATORY 2.1-M STRUVE     
+        WARNER & SWASEY REFLECTOR", "MCDONALD OBSERVATORY 2.72-M HARLAN SMITH 
+        RITCHEY-CHRETIEN EQUATORIAL REFL." }                                  
+INSTRUMENT_ID                      = { "LCS", "ES2" }                         
+INSTRUMENT_NAME                    = { "LARGE CASSEGRAIN SPECTROMETER",       
+        "CASSEGRAIN SPECTROMETER" }                                           
+TARGET_NAME                        = "ASTEROID"                               
+TARGET_TYPE                        = "ASTEROID"                               
+START_TIME                         = 1983-09-15                               
+STOP_TIME                          = 1990-07-14                               
+PRODUCT_CREATION_TIME              = 2005-02-01  /* File uploaded to OLAF */  
+CITATION_DESC                      = "Sawyer, S., Sawyer Asteroid Spectra -   
+        Index. EAR-A-3-RDR-SAWYER-ASTEROID-SPECTRA-V1.2:SAWINDEX_TAB. NASA    
+        Planetary Data System, 1998."                                         
+REFERENCE_KEY_ID                   = "SAWYER1991"                             
+RECORD_FORMAT                      = "(I4, 1X, A10, 1X, A14, 1X, A10, 1X,     
+        F4.1, 1X, F6.2, 1X, I3, 1X, I3, 1X, F4.2, 1X, F4.2, 1X, F4.2, 1X,     
+        F4.2, 1X, F4.2, 1X, F4.2, 1X, A5)"                                    
+                                                                              
+OBJECT                             = TABLE                                    
+ ROWS                              = 94                                       
+ ROW_BYTES                         = 100                                      
+ INTERCHANGE_FORMAT                = "ASCII"                                  
+ COLUMNS                           = 15                                       
+ DESCRIPTION                       = "Index to the Sawyer asteroid spectra,   
+        with observational circumstances for each observation.                
+        "                                                                     
+                                                                              
+ OBJECT                            = COLUMN                                   
+  COLUMN_NUMBER                    = 1                                        
+  NAME                             = "AST_NUMBER"                             
+  DESCRIPTION                      = "Asteroid catalog number"                
+  DATA_TYPE                        = "ASCII_INTEGER"                          
+  START_BYTE                       = 1                                        
+  BYTES                            = 4                                        
+  FORMAT                           = "I4"                                     
+ END_OBJECT                        = COLUMN                                   
+                                                                              
+ OBJECT                            = COLUMN                                   
+  COLUMN_NUMBER                    = 2                                        
+  NAME                             = "AST_NAME"                               
+  DESCRIPTION                      = "Asteroid name"                          
+  DATA_TYPE                        = "CHARACTER"                              
+  START_BYTE                       = 6                                        
+  BYTES                            = 10                                       
+  FORMAT                           = "A10"                                    
+ END_OBJECT                        = COLUMN                                   
+                                                                              
+ OBJECT                            = COLUMN                                   
+  COLUMN_NUMBER                    = 3                                        
+  NAME                             = "FILE_NAME"                              
+  DESCRIPTION                      = "The file name corresponding to this     
+        particular spectrum. The filename is the object number+name, with a   
+        sequence number appended in cases where there is more than one file   
+        for an object."                                                       
+  DATA_TYPE                        = "CHARACTER"                              
+  START_BYTE                       = 17                                       
+  BYTES                            = 14                                       
+  FORMAT                           = "A14"                                    
+ END_OBJECT                        = COLUMN                                   
+                                                                              
+ OBJECT                            = COLUMN                                   
+  COLUMN_NUMBER                    = 4                                        
+  NAME                             = "OBS_DATE"                               
+  DESCRIPTION                      = "The date of observation"                
+  DATA_TYPE                        = "DATE"                                   
+  START_BYTE                       = 32                                       
+  BYTES                            = 10                                       
+  FORMAT                           = "A10"                                    
+ END_OBJECT                        = COLUMN                                   
+                                                                              
+ OBJECT                            = COLUMN                                   
+  COLUMN_NUMBER                    = 5                                        
+  NAME                             = "VISUAL_MAGNITUDE"                       
+  DESCRIPTION                      = "Apparent visual magnitude of the        
+        asteroid at the time of the observation"                              
+  UNIT                             = "MAGNITUDE"                              
+  DATA_TYPE                        = "ASCII_REAL"                             
+  START_BYTE                       = 43                                       
+  BYTES                            = 4                                        
+  FORMAT                           = "F4.1"                                   
+ END_OBJECT                        = COLUMN                                   
+                                                                              
+ OBJECT                            = COLUMN                                   
+  COLUMN_NUMBER                    = 6                                        
+  NAME                             = "INTEGRATION_TIME"                       
+  DESCRIPTION                      = "Total integration time of the           
+        observation in minutes"                                               
+  UNIT                             = "MINUTE"                                 
+  DATA_TYPE                        = "ASCII_REAL"                             
+  START_BYTE                       = 48                                       
+  BYTES                            = 6                                        
+  FORMAT                           = "F6.2"                                   
+ END_OBJECT                        = COLUMN                                   
+                                                                              
+ OBJECT                            = COLUMN                                   
+  COLUMN_NUMBER                    = 7                                        
+  NAME                             = "PHASE_ANGLE"                            
+  DESCRIPTION                      = "Phase angle at the time of observation, 
+        in degrees"                                                           
+  UNIT                             = "DEGREE"                                 
+  DATA_TYPE                        = "ASCII_INTEGER"                          
+  START_BYTE                       = 55                                       
+  BYTES                            = 3                                        
+  FORMAT                           = "I3"                                     
+ END_OBJECT                        = COLUMN                                   
+                                                                              
+ OBJECT                            = COLUMN                                   
+  COLUMN_NUMBER                    = 8                                        
+  NAME                             = "SOLAR_ELONGATION"                       
+  DESCRIPTION                      = "Solar elongation of the asteroid at the 
+        time of observation, in degrees"                                      
+  UNIT                             = "DEGREE"                                 
+  DATA_TYPE                        = "ASCII_INTEGER"                          
+  START_BYTE                       = 59                                       
+  BYTES                            = 3                                        
+  FORMAT                           = "I3"                                     
+ END_OBJECT                        = COLUMN                                   
+                                                                              
+ OBJECT                            = COLUMN                                   
+  COLUMN_NUMBER                    = 9                                        
+  NAME                             = "HELIOCENTRIC_DISTANCE"                  
+  DESCRIPTION                      = "Heliocentric distance of the asteroid at
+        the time of observation, in AUs"                                      
+  UNIT                             = "ASTRONOMICAL UNIT"                      
+  DATA_TYPE                        = "ASCII_REAL"                             
+  START_BYTE                       = 63                                       
+  BYTES                            = 4                                        
+  FORMAT                           = "F4.2"                                   
+ END_OBJECT                        = COLUMN                                   
+                                                                              
+ OBJECT                            = COLUMN                                   
+  COLUMN_NUMBER                    = 10                                       
+  NAME                             = "GEOCENTRIC_DISTANCE"                    
+  DESCRIPTION                      = "Geocentric distance of the asteroid at  
+        the time of observation, in AUs"                                      
+  UNIT                             = "ASTRONOMICAL UNIT"                      
+  DATA_TYPE                        = "ASCII_REAL"                             
+  START_BYTE                       = 68                                       
+  BYTES                            = 4                                        
+  FORMAT                           = "F4.2"                                   
+ END_OBJECT                        = COLUMN                                   
+                                                                              
+ OBJECT                            = COLUMN                                   
+  COLUMN_NUMBER                    = 11                                       
+  NAME                             = "AIRMASS"                                
+  DESCRIPTION                      = "Average airmass of the observation"     
+  DATA_TYPE                        = "ASCII_REAL"                             
+  START_BYTE                       = 73                                       
+  BYTES                            = 4                                        
+  FORMAT                           = "F4.2"                                   
+ END_OBJECT                        = COLUMN                                   
+                                                                              
+ OBJECT                            = COLUMN                                   
+  COLUMN_NUMBER                    = 12                                       
+  NAME                             = "WAVELENGTH_LOWER_LIMIT"                 
+  DESCRIPTION                      = "The limit of wavelength coverage of this
+        spectrum in the blue"                                                 
+  UNIT                             = "MICRON"                                 
+  DATA_TYPE                        = "ASCII_REAL"                             
+  START_BYTE                       = 78                                       
+  BYTES                            = 4                                        
+  FORMAT                           = "F4.2"                                   
+ END_OBJECT                        = COLUMN                                   
+                                                                              
+ OBJECT                            = COLUMN                                   
+  COLUMN_NUMBER                    = 13                                       
+  NAME                             = "WAVELENGTH_UPPER_LIMIT"                 
+  DESCRIPTION                      = "The limit of wavelength coverage of this
+        spectrum in the red"                                                  
+  UNIT                             = "MICRON"                                 
+  DATA_TYPE                        = "ASCII_REAL"                             
+  START_BYTE                       = 83                                       
+  BYTES                            = 4                                        
+  FORMAT                           = "F4.2"                                   
+ END_OBJECT                        = COLUMN                                   
+                                                                              
+ OBJECT                            = COLUMN                                   
+  COLUMN_NUMBER                    = 14                                       
+  NAME                             = "NORM_WAVELENGTH"                        
+  DESCRIPTION                      = "The spectrum has been normalized to 1.0 
+        at this wavelength.  For some spectra, the information has been lost  
+        as to what shifting and normalization have been applied to the        
+        spectrum, and for these the normalization wavelength is given as      
+        '9.99'."                                                              
+  UNIT                             = "MICRON"                                 
+  DATA_TYPE                        = "ASCII_REAL"                             
+  START_BYTE                       = 88                                       
+  BYTES                            = 4                                        
+  FORMAT                           = "F4.2"                                   
+  MISSING_CONSTANT                 = 9.99                                     
+ END_OBJECT                        = COLUMN                                   
+                                                                              
+ OBJECT                            = COLUMN                                   
+  COLUMN_NUMBER                    = 15                                       
+  NAME                             = "SOLAR_STARS"                            
+  DESCRIPTION                      = "This comma-separate list of integers    
+        identifies the solar analog stars used in reducing this observation.  
+        The correspondence between integers and solar stars, along with       
+        additional information about each star, is given in an associated     
+        table in this data set"                                               
+  DATA_TYPE                        = "CHARACTER"                              
+  START_BYTE                       = 93                                       
+  BYTES                            = 5                                        
+  FORMAT                           = "A5"                                     
+ END_OBJECT                        = COLUMN                                   
+                                                                              
+END_OBJECT                         = TABLE                                    
+END                                                                           

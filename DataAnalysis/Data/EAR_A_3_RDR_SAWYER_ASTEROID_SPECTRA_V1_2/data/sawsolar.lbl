@@ -1,0 +1,231 @@
+PDS_VERSION_ID                     = PDS3                                     
+                                                                              
+RECORD_TYPE                        = "FIXED_LENGTH"                           
+RECORD_BYTES                       = 70                                       
+FILE_RECORDS                       = 14                                       
+                                                                              
+^TABLE                             = "sawsolar.tab"                           
+                                                                              
+DATA_SET_ID                        =                                          
+        "EAR-A-3-RDR-SAWYER-ASTEROID-SPECTRA-V1.2"                            
+PRODUCT_NAME                       = "SAWYER ASTEROID SPECTRA - SOLAR STARS"  
+PRODUCT_ID                         = "SAWSOLAR_TAB"                           
+INSTRUMENT_HOST_ID                 = { "MCD27", "MCD21" }                     
+INSTRUMENT_HOST_NAME               = { "MCDONALD OBSERVATORY 2.1-M STRUVE     
+        WARNER & SWASEY REFLECTOR", "MCDONALD OBSERVATORY 2.72-M HARLAN SMITH 
+        RITCHEY-CHRETIEN EQUATORIAL REFL." }                                  
+INSTRUMENT_ID                      = { "LCS", "ES2" }                         
+INSTRUMENT_NAME                    = { "LARGE CASSEGRAIN SPECTROMETER",       
+        "CASSEGRAIN SPECTROMETER" }                                           
+TARGET_NAME                        = "ASTEROID"                               
+TARGET_TYPE                        = "ASTEROID"                               
+START_TIME                         = 1983-09-15                               
+STOP_TIME                          = 1990-07-14                               
+PRODUCT_CREATION_TIME              = 2005-02-07  /* File uploaded to OLAF */  
+CITATION_DESC                      = "Sawyer, S., Sawyer Asteroid Spectra -   
+        Solar Stars. EAR-A-3-RDR-SAWYER-ASTEROID-SPECTRA-V1.2:SAWSOLAR_TAB.   
+        NASA Planetary Data System, 1998."                                    
+REFERENCE_KEY_ID                   = {"HARDORP1978", "SAWYER1991",            
+        "HARDORP1982"}                                                        
+RECORD_FORMAT                      = "(I2, 1X, I4, 1X, I6, 2X, A10, 1X, F4.2, 
+        1X, A8, 1X, I1, 1X, A1, 1X, I2, 1X, I2, 1X, F5.2, 1X, A1, 0X, I2, 1X, 
+        I2, 1X, F4.1)"                                                        
+                                                                              
+OBJECT                             = TABLE                                    
+ ROWS                              = 14                                       
+ ROW_BYTES                         = 70                                       
+ INTERCHANGE_FORMAT                = "ASCII"                                  
+ COLUMNS                           = 15                                       
+ DESCRIPTION                       = "This is a table of the solar analog     
+        stars used by Sawyer in the spectroscopic survey of asteroids.  The   
+        information has been taken from Table 2.1 of Sawyer (1991). Works     
+        cited in the notes to this table include:                             
+                                                                              
+                Hardorp, J. 1978.  The sun among the stars.  I.  A search for 
+        solar spectral analogs.  Astr. Ap. 63, 383-390.                       
+                                                                              
+                Hardorp, J. 1982.  The sun among the stars.  V.  A second     
+        search for solar spectral analogs.  The Hyades distance.  Astr. Ap.   
+        105, 120-132.                                                         
+                                                                              
+        "                                                                     
+                                                                              
+ OBJECT                            = COLUMN                                   
+  COLUMN_NUMBER                    = 1                                        
+  NAME                             = "SOLAR_ANALOG_ID"                        
+  DESCRIPTION                      = "Each solar analog star is identified    
+        with an integer for the purpose of reference in the index of          
+        observations."                                                        
+  DATA_TYPE                        = "ASCII_INTEGER"                          
+  START_BYTE                       = 1                                        
+  BYTES                            = 2                                        
+  FORMAT                           = "I2"                                     
+ END_OBJECT                        = COLUMN                                   
+                                                                              
+ OBJECT                            = COLUMN                                   
+  COLUMN_NUMBER                    = 2                                        
+  NAME                             = "HR_NUMBER"                              
+  DESCRIPTION                      = "The star's number in the Yale Bright    
+        Star Catalog, if any"                                                 
+  DATA_TYPE                        = "ASCII_INTEGER"                          
+  START_BYTE                       = 4                                        
+  BYTES                            = 4                                        
+  FORMAT                           = "I4"                                     
+ END_OBJECT                        = COLUMN                                   
+                                                                              
+ OBJECT                            = COLUMN                                   
+  COLUMN_NUMBER                    = 3                                        
+  NAME                             = "HD_NUMBER"                              
+  DESCRIPTION                      = "The star's number in the Henry Draper   
+        Catalogue, if any"                                                    
+  DATA_TYPE                        = "ASCII_INTEGER"                          
+  START_BYTE                       = 9                                        
+  BYTES                            = 6                                        
+  FORMAT                           = "I6"                                     
+ END_OBJECT                        = COLUMN                                   
+                                                                              
+ OBJECT                            = COLUMN                                   
+  COLUMN_NUMBER                    = 4                                        
+  NAME                             = "STAR_NAME"                              
+  DESCRIPTION                      = "The star's name or other designation, if
+        any"                                                                  
+  DATA_TYPE                        = "CHARACTER"                              
+  START_BYTE                       = 17                                       
+  BYTES                            = 10                                       
+  FORMAT                           = "A10"                                    
+ END_OBJECT                        = COLUMN                                   
+                                                                              
+ OBJECT                            = COLUMN                                   
+  COLUMN_NUMBER                    = 5                                        
+  NAME                             = "VISUAL_MAGNITUDE"                       
+  DESCRIPTION                      = "The star's apparent visual magnitude,   
+        taken   from Hardorp (1982), Table 1"                                 
+  UNIT                             = "MAGNITUDE"                              
+  DATA_TYPE                        = "ASCII_REAL"                             
+  START_BYTE                       = 28                                       
+  BYTES                            = 4                                        
+  FORMAT                           = "F4.2"                                   
+ END_OBJECT                        = COLUMN                                   
+                                                                              
+ OBJECT                            = COLUMN                                   
+  COLUMN_NUMBER                    = 6                                        
+  NAME                             = "SPECTRAL_TYPE"                          
+  DESCRIPTION                      = "The star's spectral type, taken from    
+        Hardorp (1982), Table 1, if available"                                
+  DATA_TYPE                        = "CHARACTER"                              
+  START_BYTE                       = 33                                       
+  BYTES                            = 8                                        
+  FORMAT                           = "A8"                                     
+ END_OBJECT                        = COLUMN                                   
+                                                                              
+ OBJECT                            = COLUMN                                   
+  COLUMN_NUMBER                    = 7                                        
+  NAME                             = "HARDORP_CLASS"                          
+  DESCRIPTION                      = "Hardorp classes from Hardorp (1978):    
+          1 - Spectra indistinguishable from solar                            
+          2 - Spectra potentially equal to solar                              
+          3 - Spectra very close to solar                                     
+          6 - Some absorption features appreciably weaker than solar"         
+  DATA_TYPE                        = "ASCII_INTEGER"                          
+  START_BYTE                       = 42                                       
+  BYTES                            = 1                                        
+  FORMAT                           = "I1"                                     
+ END_OBJECT                        = COLUMN                                   
+                                                                              
+ OBJECT                            = COLUMN                                   
+  COLUMN_NUMBER                    = 8                                        
+  NAME                             = "NOTE"                                   
+  DESCRIPTION                      = "A - Hardorp (1982) Figure 6, no         
+        significant color difference from solar.                              
+           B - Hardorp (1982) Table 1, significantly weaker features than     
+        solar.                                                                
+           C - Hardorp (1982) Figure 6, no significant color difference from  
+        solar, but Table 1 called it a 'close case' and indicated it may be   
+        double.                                                               
+           D - SAO G0 star used for individual asteroid observations due to   
+        proximity on sky; not classified by Hardorp."                         
+  DATA_TYPE                        = "CHARACTER"                              
+  START_BYTE                       = 44                                       
+  BYTES                            = 1                                        
+  FORMAT                           = "A1"                                     
+ END_OBJECT                        = COLUMN                                   
+                                                                              
+ OBJECT                            = COLUMN                                   
+  COLUMN_NUMBER                    = 9                                        
+  NAME                             = "RA_HOURS"                               
+  DESCRIPTION                      = "Hours of right ascension J2000 for the  
+        star"                                                                 
+  UNIT                             = "HOUR"                                   
+  DATA_TYPE                        = "ASCII_INTEGER"                          
+  START_BYTE                       = 46                                       
+  BYTES                            = 2                                        
+  FORMAT                           = "I2"                                     
+ END_OBJECT                        = COLUMN                                   
+                                                                              
+ OBJECT                            = COLUMN                                   
+  COLUMN_NUMBER                    = 10                                       
+  NAME                             = "RA_MINUTES"                             
+  DESCRIPTION                      = "Minutes of right ascension J2000"       
+  UNIT                             = "MINUTE"                                 
+  DATA_TYPE                        = "ASCII_INTEGER"                          
+  START_BYTE                       = 49                                       
+  BYTES                            = 2                                        
+  FORMAT                           = "I2"                                     
+ END_OBJECT                        = COLUMN                                   
+                                                                              
+ OBJECT                            = COLUMN                                   
+  COLUMN_NUMBER                    = 11                                       
+  NAME                             = "RA_SECONDS"                             
+  DESCRIPTION                      = "Seconds of right ascension J2000"       
+  UNIT                             = "SECOND"                                 
+  DATA_TYPE                        = "ASCII_REAL"                             
+  START_BYTE                       = 52                                       
+  BYTES                            = 5                                        
+  FORMAT                           = "F5.2"                                   
+ END_OBJECT                        = COLUMN                                   
+                                                                              
+ OBJECT                            = COLUMN                                   
+  COLUMN_NUMBER                    = 12                                       
+  NAME                             = "DEC_SIGN"                               
+  DESCRIPTION                      = "Sign of declination J2000"              
+  DATA_TYPE                        = "CHARACTER"                              
+  START_BYTE                       = 58                                       
+  BYTES                            = 1                                        
+  FORMAT                           = "A1"                                     
+ END_OBJECT                        = COLUMN                                   
+                                                                              
+ OBJECT                            = COLUMN                                   
+  COLUMN_NUMBER                    = 13                                       
+  NAME                             = "DEC_DEGREES"                            
+  DESCRIPTION                      = "Degrees of declination J2000"           
+  UNIT                             = "DEGREE"                                 
+  DATA_TYPE                        = "ASCII_INTEGER"                          
+  START_BYTE                       = 59                                       
+  BYTES                            = 2                                        
+  FORMAT                           = "I2"                                     
+ END_OBJECT                        = COLUMN                                   
+                                                                              
+ OBJECT                            = COLUMN                                   
+  COLUMN_NUMBER                    = 14                                       
+  NAME                             = "DEC_MINUTES"                            
+  DESCRIPTION                      = "Minutes of declination J2000"           
+  UNIT                             = "MINUTE"                                 
+  DATA_TYPE                        = "ASCII_INTEGER"                          
+  START_BYTE                       = 62                                       
+  BYTES                            = 2                                        
+  FORMAT                           = "I2"                                     
+ END_OBJECT                        = COLUMN                                   
+                                                                              
+ OBJECT                            = COLUMN                                   
+  COLUMN_NUMBER                    = 15                                       
+  NAME                             = "DEC_SECONDS"                            
+  DESCRIPTION                      = "Seconds of declination J2000"           
+  UNIT                             = "SECOND"                                 
+  DATA_TYPE                        = "ASCII_REAL"                             
+  START_BYTE                       = 65                                       
+  BYTES                            = 4                                        
+  FORMAT                           = "F4.1"                                   
+ END_OBJECT                        = COLUMN                                   
+                                                                              
+END_OBJECT                         = TABLE                                    
+END                                                                           

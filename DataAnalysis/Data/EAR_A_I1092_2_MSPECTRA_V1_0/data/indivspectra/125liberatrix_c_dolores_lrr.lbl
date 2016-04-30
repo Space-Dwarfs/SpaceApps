@@ -1,0 +1,84 @@
+PDS_VERSION_ID                     = PDS3                                     
+                                                                              
+RECORD_TYPE                        = "FIXED_LENGTH"                           
+RECORD_BYTES                       = 28                                       
+FILE_RECORDS                       = 1578                                     
+                                                                              
+^TABLE                             = "125liberatrix_c_dolores_lrr.tab"        
+                                                                              
+DATA_SET_ID                        = "EAR-A-I1092-2-MSPECTRA-V1.0"            
+PRODUCT_NAME                       = "125LIBERATRIX_C_DOLORES_LRR"            
+PRODUCT_ID                         =                                          
+        "INDIVSPE_125LIBERATRIX_C_DOLORES_LRR_TAB"                            
+INSTRUMENT_HOST_ID                 = "OBS270T7"                               
+INSTRUMENT_HOST_NAME               = "ROQUE DE LOS MUCHACHOS OBSERVATORY 3.5-M
+        GALILEO ZEISS RITCHEY-CHRETIEN ALTAZIMUTH REFLECTOR"                  
+INSTRUMENT_ID                      = "I1092"                                  
+INSTRUMENT_NAME                    = "DOLORES (DEVICE OPTIMIZED FOR LOW       
+        RESOLUTION)"                                                          
+TARGET_NAME                        = "125 LIBERATRIX"                         
+TARGET_TYPE                        = "ASTEROID"                               
+START_TIME                         = 2004-11-20T23:27                         
+STOP_TIME                          = 2004-11-20T23:27                         
+PRODUCT_CREATION_TIME              = 2011-08-15  /* File uploaded to OLAF */  
+REFERENCE_KEY_ID                   = "FORNASIERETAL2010"                      
+EXPOSURE_DURATION                  = 180 <SECOND>                             
+AIRMASS                            = 1.18                                     
+NOTE                               = "Definitions for keywords which may      
+        appear in this label:  IMAGE_COUNT is the number of individual        
+        observations which have been combined to produce this spectrum.       
+        EXPOSURE_DURATION is the total exposure time of the combined          
+        observation(s).  APPARENT_MAGNITUDE is the apparent V  magnitude of   
+        the target.  FILTER_NAME (always V) is the filter of the              
+        APPARENT_MAGNITUDE.  STAR_NAME is the name of the solar analog star   
+        used to reduce the observation.  PHASE_ANGLE, GEOCENTRIC_DISTANCE,    
+        SOLAR_DISTANCE, and AIRMASS all refer to the target.                  
+        SAMPLING_PARAMETER_RESOLUTION is the spectral resolution of the       
+        spectrum."                                                            
+                                                                              
+OBJECT                             = TABLE                                    
+ ROWS                              = 1578                                     
+ ROW_BYTES                         = 28                                       
+ INTERCHANGE_FORMAT                = "ASCII"                                  
+ COLUMNS                           = 3                                        
+ DESCRIPTION                       = "Individual spectrum of M asteroid from  
+        Fornasier et al. (2010).  Individual spectra were combined across     
+        instruments to produce a single composite spectrum for each target.   
+        The composite spectra are in the subdirectory 'compspectra'."         
+                                                                              
+ OBJECT                            = COLUMN                                   
+  COLUMN_NUMBER                    = 1                                        
+  NAME                             = "WAVELENGTH"                             
+  UNIT                             = "MICRON"                                 
+  DATA_TYPE                        = "ASCII_REAL"                             
+  START_BYTE                       = 1                                        
+  BYTES                            = 8                                        
+  FORMAT                           = "F8.6"                                   
+ END_OBJECT                        = COLUMN                                   
+                                                                              
+ OBJECT                            = COLUMN                                   
+  COLUMN_NUMBER                    = 2                                        
+  NAME                             = "REFLECTANCE"                            
+  DESCRIPTION                      = "Relative reflectance of individual      
+        spectrum.  For details of the normalization, see the data set         
+        description."                                                         
+  DATA_TYPE                        = "ASCII_REAL"                             
+  START_BYTE                       = 10                                       
+  BYTES                            = 8                                        
+  FORMAT                           = "F8.6"                                   
+ END_OBJECT                        = COLUMN                                   
+                                                                              
+ OBJECT                            = COLUMN                                   
+  COLUMN_NUMBER                    = 3                                        
+  NAME                             = "UNCERTAINTY"                            
+  DESCRIPTION                      = "Uncertainty of the reflectance.  See the
+        confidence level note in the data set catalog file for the details of 
+        how the uncertainty was calculated."                                  
+  DATA_TYPE                        = "ASCII_REAL"                             
+  START_BYTE                       = 19                                       
+  BYTES                            = 8                                        
+  FORMAT                           = "F8.6"                                   
+ END_OBJECT                        = COLUMN                                   
+                                                                              
+END_OBJECT                         = TABLE                                    
+END                                                                           

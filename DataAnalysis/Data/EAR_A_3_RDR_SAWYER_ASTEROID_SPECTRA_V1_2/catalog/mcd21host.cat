@@ -1,0 +1,88 @@
+PDS_VERSION_ID                     = PDS3                                     
+  LABEL_REVISION_NOTE              = "24 Apr 2002, A.C.Raugh: Creation        
+        2005-1-31 D.Tarico: Merged the catalog file with information in OLAF. 
+        This changed instrument_host_name to be more descriptive and added    
+        GROUP information to the description."                                
+                                                                              
+OBJECT                             = INSTRUMENT_HOST                          
+  INSTRUMENT_HOST_ID               = "MCD21"                                  
+  OBJECT                           = INSTRUMENT_HOST_INFORMATION              
+    INSTRUMENT_HOST_NAME           = "MCDONALD OBSERVATORY 2.1-M STRUVE WARNER
+        & SWASEY REFLECTOR"                                                   
+    INSTRUMENT_HOST_TYPE           = "EARTH BASED"                            
+    INSTRUMENT_HOST_DESC           = "                                        
+                                                                              
+                                                                              
+  Instrument Host Overview                                                    
+  ========================                                                    
+    McDonald Observatory Otto Struve 2.1m (82in) Telescope                    
+                                                                              
+    The information included here was extracted from the McDonald             
+    Observatory web site at:                                                  
+                                                                              
+              http://mcdonaldobservatory.org/                                 
+                                                                              
+    on 24 April 2002 by A.C.Raugh.                                            
+                                                                              
+                                                                              
+  Observatory Information                                                     
+  =======================                                                     
+    McDonald Observatory is administered by the University of Texas           
+    at Austin.  Telecsopes are located on Mt. Locke in the Davis              
+    Mountains of West Texas.                                                  
+                                                                              
+      East longitude:  -104 01.3                                              
+            Latitude:   +30 40.3                                              
+           Elevation:  2075 meters above sea level                            
+                                                                              
+                                                                              
+    Telescope Information                                                     
+    =====================                                                     
+    Otto Struve optical telescope                                             
+                                                                              
+      Primary Mirror                                                          
+            Diameter:  2.08m  (82 in)                                         
+        Focal Length:  8.13m  (26.7 ft)                                       
+             f-ratio:  3.90                                                   
+         Field Angle: 63.5 arcmin                                             
+         Plate Scale: 25.4 arcsec/mm                                          
+                                                                              
+    The telescope has two focal points:                                       
+                                                                              
+                          Cassegrain            Coude                         
+                            f/13.7             f/22.9                         
+                                                                              
+      Focal Length      28.53m/96.6ft        47.70m/156.5ft                   
+      f-ratio           13.65                22.9                             
+      Field Angle       20 arcmin            ----                             
+      Plate Scale        7.25 arcsec/mm       4.3 arcsec/mm                   
+                                                                              
+    The Coude focus is not presently in use.                                  
+                                                                              
+        GROUP                  = OBSERVATORY_PARAMETERS                       
+          OBSERVATORY_ID       = 'OBS445'                                     
+          NAME                 = 'MCDONALD OBSERVATORY'                       
+          COUNTRY              = 'USA'                                        
+          ADDRESS              = 'UNIVERSITY OF TEXAS\N                       
+                                        P.O. BOX 1337\N                       
+                                        FORT DAVIS, TEXAS'                    
+        END_GROUP              = OBSERVATORY_PARAMETERS                       
+                                                                              
+        GROUP                  = TELESCOPE_PARAMETERS                         
+          TELESCOPE_ID         = 'T2'                                         
+          NAME                 = '2.1-M STRUVE WARNER & SWASEY REFLECTOR'     
+          APERTURE             = 2.1 <METERS>                                 
+          LONGITUDE            = -103.977745 /* -103 58 39.88 */              
+          LATITUDE             =   30.671583 /* +30 40 17.7 */                
+          ALTITUDE             = 2069 <METERS>                                
+          COORDINATE_SOURCE    = 'Unknown'                                    
+        END_GROUP              = TELESCOPE_PARAMETERS"                        
+                                                                              
+  END_OBJECT                       = INSTRUMENT_HOST_INFORMATION              
+                                                                              
+  OBJECT                           = INSTRUMENT_HOST_REFERENCE_INFO           
+    REFERENCE_KEY_ID               = "N/A"                                    
+  END_OBJECT                       = INSTRUMENT_HOST_REFERENCE_INFO           
+                                                                              
+END_OBJECT                         = INSTRUMENT_HOST                          
+END                                                                           

@@ -1,0 +1,51 @@
+PDS_VERSION_ID                     = PDS3                                     
+RECORD_TYPE                        = "STREAM"                                 
+                                                                              
+OBJECT                             = REFERENCE                                
+  REFERENCE_KEY_ID                 = "ABELL2003"                              
+  REFERENCE_DESC                   = "Abell, P.A., Near-IR reflectance        
+        spectroscopy of main belt and near-Earth objects: A study of their    
+        composition, meteorite affinities and source regions. Ph.D.           
+        dissertation. Rensselaer Polytechnic Institute, Troy, NY, USA, 2003." 
+END_OBJECT                         = REFERENCE                                
+                                                                              
+OBJECT                             = REFERENCE                                
+  REFERENCE_KEY_ID                 = "CUSHINGETAL2004"                        
+  REFERENCE_DESC                   = "Cushing, M.C., W.D. Vacca, and J.T.     
+        Rayner, Spextool: A spectral extraction package for SpeX, a 0.8-5.5   
+        micron cross-dispersed spectrograph, PASP 116, 362-376, 2004."        
+END_OBJECT                         = REFERENCE                                
+                                                                              
+OBJECT                             = REFERENCE                                
+  REFERENCE_KEY_ID                 = "HARDERSEN2003"                          
+  REFERENCE_DESC                   = "Hardersen P.S., Near-IR Reflectance     
+        Spectroscopy of Asteroids and Study of the Thermal History of the Main
+        Asteroid Belt.  Ph.D. Dissertation. Rensselaer Polytechnic Institute, 
+        Troy, New York, USA, 2003."                                           
+END_OBJECT                         = REFERENCE                                
+                                                                              
+OBJECT                             = REFERENCE                                
+  REFERENCE_KEY_ID                 = "RAYNERETAL2003"                         
+  REFERENCE_DESC                   = "Rayner, J. T., D. W. Toomey, P. M.      
+        Onaka, A. J. Denault, W. E. Stahlberger, and 3 others, SpeX: A        
+        Medium-Resolution 0.8 - 5.5 micron Spectrograph and Imager for the    
+        NASA Infrared Telescope Facility, PASP 115, 362, 2003."               
+END_OBJECT                         = REFERENCE                                
+                                                                              
+OBJECT                             = REFERENCE                                
+  REFERENCE_KEY_ID                 = "RAYNERETAL2004"                         
+  REFERENCE_DESC                   = "Rayner, J.T., P. M. Onaka, M. C. Cushing
+        and W. D. Vacca, Four Years of Good SpeX, in Ground-based             
+        Instrumentation for Astronomy, A. F. M. Moorwood and M. Iye, Eds.,    
+        Proceedings of the SPIE, vol. 5492, pp. 1498-1509, 2004."             
+END_OBJECT                         = REFERENCE                                
+                                                                              
+OBJECT                             = REFERENCE                                
+  REFERENCE_KEY_ID                 = "REDDY2009"                              
+  REFERENCE_DESC                   = "Reddy, V., Mineralogical Survey Of      
+        Near-Earth Asteroid Population: Implications For Impact Hazard        
+        Assessment And Sustainability Of Life On Earth, Ph.D. dissertation.   
+        University of North Dakota, Grand Forks, 2009.   "                    
+END_OBJECT                         = REFERENCE                                
+                                                                              
+END                                                                           

@@ -1,0 +1,51 @@
+PDS_VERSION_ID                     = PDS3                                     
+RECORD_TYPE                        = "STREAM"                                 
+LABEL_REVISION_NOTE                = "FEB 2002:  Barett McGavock (SBN)        
+        created.                                                              
+        JUN 2006:  David Tarico removed LUKAC&MILLER2000 reference.           
+        JUN 2009: Jesse Stone/Michael Wendell corrected error in the          
+        LATITUDE/LONGITUDE"                                                   
+                                                                              
+OBJECT                             = INSTRUMENT_HOST                          
+  INSTRUMENT_HOST_ID               = "OBS378T2"                               
+  OBJECT                           = INSTRUMENT_HOST_INFORMATION              
+    INSTRUMENT_HOST_NAME           = "W.M. KECK OBSERVATORY 10-M KECK II      
+        RITCHEY-CHRETIEN ALTAZIMUTH REFLECTOR"                                
+    INSTRUMENT_HOST_TYPE           = "EARTH BASED"                            
+    INSTRUMENT_HOST_DESC           = "                                        
+                                                                              
+                                                                              
+  Instrument Host Overview                                                    
+  ========================                                                    
+    Operational 04/1996+; 36 1.8-m mirrors                                    
+                                                                              
+    GROUP                        = OBSERVATORY_PARAMETERS                     
+      OBSERVATORY_ID             = 'OBS378'                                   
+      NAME                       = 'W.M. KECK OBSERVATORY'                    
+      COUNTRY                    = 'USA'                                      
+      ADDRESS                    = 'California Association for Research in    
+    Astronomy\n                                                               
+                                    P.O. Box 220\n                            
+                                    Kamuela, Hawaii'                          
+    END_GROUP                    = OBSERVATORY_PARAMETERS                     
+                                                                              
+    GROUP                        = TELESCOPE_PARAMETERS                       
+      TELESCOPE_ID               = 'T2'                                       
+      NAME                       = '10-M KECK II RITCHEY-CHRETIEN ALTAZIMUTH  
+    REFLECTOR'                                                                
+      APERTURE                   = 10 <METERS>                                
+      LONGITUDE                  = -155.474228 /* -155 28 27.22 */            
+      LATITUDE                   =   19.826557 /* +19 49 35.6 */              
+      ALTITUDE                   = 4160 <METERS>                              
+      COORDINATE_SOURCE          = 'Aerial survey - North American (1983)     
+    datum'                                                                    
+    END_GROUP                    = TELESCOPE_PARAMETERS"                      
+                                                                              
+  END_OBJECT                       = INSTRUMENT_HOST_INFORMATION              
+                                                                              
+  OBJECT                           = INSTRUMENT_HOST_REFERENCE_INFO           
+    REFERENCE_KEY_ID               = "N/A"                                    
+  END_OBJECT                       = INSTRUMENT_HOST_REFERENCE_INFO           
+                                                                              
+END_OBJECT                         = INSTRUMENT_HOST                          
+END                                                                           

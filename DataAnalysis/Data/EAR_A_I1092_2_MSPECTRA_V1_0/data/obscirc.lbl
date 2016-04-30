@@ -1,0 +1,166 @@
+PDS_VERSION_ID                     = PDS3                                     
+                                                                              
+RECORD_TYPE                        = "FIXED_LENGTH"                           
+RECORD_BYTES                       = 129                                      
+FILE_RECORDS                       = 85                                       
+                                                                              
+^TABLE                             = "obscirc.tab"                            
+                                                                              
+DATA_SET_ID                        = "EAR-A-I1092-2-MSPECTRA-V1.0"            
+PRODUCT_NAME                       = "OBSERVATIONAL CIRCUMSTANCES"            
+PRODUCT_ID                         = "OBSCIRC_TAB"                            
+INSTRUMENT_HOST_ID                 = {"OBS056T9", "OBS270T7", "OBS376T3"}     
+INSTRUMENT_HOST_NAME               = {"EUROPEAN SOUTHERN OBSERVATORY NEW      
+        TECHNOLOGY TELESCOPE (NTT)", "MAUNA KEA OBSERVATORY 3.0-M NASA        
+        INFRARED TELESCOPE FACILITY (IRTF)", "ROQUE DE LOS MUCHACHOS          
+        OBSERVATORY 3.5-M GALILEO ZEISS RITCHEY-CHRETIEN ALTAZIMUTH           
+        REFLECTOR"}                                                           
+INSTRUMENT_ID                      = {"I0046", "I0373", "I1092", "I1093",     
+        "I1094"}                                                              
+INSTRUMENT_NAME                    = {"DOLORES (DEVICE OPTIMIZED FOR LOW      
+        RESOLUTION)", "ESO MULTI-MODE INSTRUMENT: RILD MODE", "NEAR INFRARED  
+        CAMERA SPECTROMETER (NICS)", "SOFI (SON OF ISAAC)", "SPEX"}           
+TARGET_NAME                        = "ASTEROID"                               
+TARGET_TYPE                        = "ASTEROID"                               
+START_TIME                         = 2004-02-29                               
+STOP_TIME                          = 2008-12-22                               
+PRODUCT_CREATION_TIME              = 2011-08-15  /* File uploaded to OLAF */  
+REFERENCE_KEY_ID                   = "FORNASIERETAL2010"                      
+                                                                              
+OBJECT                             = TABLE                                    
+ ROWS                              = 85                                       
+ ROW_BYTES                         = 129                                      
+ INTERCHANGE_FORMAT                = "ASCII"                                  
+ COLUMNS                           = 9                                        
+ DESCRIPTION                       = "Observational circumstances of the      
+        spectroscopic observations of M asteroids presented in Fornasier et   
+        al. (2010).  This table reproduces the contents of Table 1 of that    
+        paper."                                                               
+                                                                              
+ OBJECT                            = COLUMN                                   
+  COLUMN_NUMBER                    = 1                                        
+  NAME                             = "ASTEROID_NUMBER"                        
+  DESCRIPTION                      = "Asteroid number"                        
+  DATA_TYPE                        = "ASCII_INTEGER"                          
+  START_BYTE                       = 1                                        
+  BYTES                            = 4                                        
+  FORMAT                           = "I4"                                     
+ END_OBJECT                        = COLUMN                                   
+                                                                              
+ OBJECT                            = COLUMN                                   
+  COLUMN_NUMBER                    = 2                                        
+  NAME                             = "ASTEROID_NAME"                          
+  DESCRIPTION                      = "Name of the asteroid"                   
+  DATA_TYPE                        = "CHARACTER"                              
+  START_BYTE                       = 6                                        
+  BYTES                            = 12                                       
+  FORMAT                           = "A12"                                    
+ END_OBJECT                        = COLUMN                                   
+                                                                              
+ OBJECT                            = COLUMN                                   
+  COLUMN_NUMBER                    = 3                                        
+  NAME                             = "UT_OBS_TIME"                            
+  DESCRIPTION                      = "UT date and time of the start of        
+        observation"                                                          
+  DATA_TYPE                        = "TIME"                                   
+  START_BYTE                       = 19                                       
+  BYTES                            = 16                                       
+  FORMAT                           = "A16"                                    
+ END_OBJECT                        = COLUMN                                   
+                                                                              
+ OBJECT                            = COLUMN                                   
+  COLUMN_NUMBER                    = 4                                        
+  NAME                             = "EXPOSURE"                               
+  DESCRIPTION                      = "Exposure duration"                      
+  UNIT                             = "SECOND"                                 
+  DATA_TYPE                        = "ASCII_INTEGER"                          
+  START_BYTE                       = 36                                       
+  BYTES                            = 4                                        
+  FORMAT                           = "I4"                                     
+ END_OBJECT                        = COLUMN                                   
+                                                                              
+ OBJECT                            = COLUMN                                   
+  COLUMN_NUMBER                    = 5                                        
+  NAME                             = "TELESCOPE"                              
+  DESCRIPTION                      = "Telescope at which the observation was  
+        made.                                                                 
+                                                                              
+        TNG - Italian Telescopio Nazionale Galileo at La Palma, Spain.        
+                                                                              
+        NTT - New Technology Telescope of the European Southern Observatory   
+        (ESO) in Chile.                                                       
+                                                                              
+        IRTF - NASA Infrared Telescope Facility in Hawaii."                   
+  DATA_TYPE                        = "CHARACTER"                              
+  START_BYTE                       = 41                                       
+  BYTES                            = 4                                        
+  FORMAT                           = "A4"                                     
+ END_OBJECT                        = COLUMN                                   
+                                                                              
+ OBJECT                            = COLUMN                                   
+  COLUMN_NUMBER                    = 6                                        
+  NAME                             = "INSTRUMENT"                             
+  DESCRIPTION                      = "Instrument with which the observation   
+        was made:                                                             
+                                                                              
+        Dolores - Device Optimized for Low Resolution at the TNG.             
+        NICS - Near Infrared Camera and Spectrometer at the TNG.              
+        EMMI - ESO Multi-Mode Instrument at the NTT.                          
+        SOFI - Son of Isaac instrument at the NTT.                            
+        SPEX - SPEX instrument at the IRTF."                                  
+  DATA_TYPE                        = "CHARACTER"                              
+  START_BYTE                       = 46                                       
+  BYTES                            = 7                                        
+  FORMAT                           = "A7"                                     
+ END_OBJECT                        = COLUMN                                   
+                                                                              
+ OBJECT                            = COLUMN                                   
+  COLUMN_NUMBER                    = 7                                        
+  NAME                             = "DISPERSER"                              
+  DESCRIPTION                      = "The grism used in the observation:      
+                                                                              
+        LR-R - Low resolution red grism on Dolores instrument                 
+        LR-B - Low resolution blue grism on Dolores instrument                
+        MR-B - Medium resolution blue grism on Dolores instrument             
+        Amici - Amici prism disperser on NICS instrument                      
+        GR1 - Grism #1 of EMMI instrument                                     
+        Prism - Prism disperser of SPEX                                       
+        GBF - Blue grism (GB) on SOFI with order separation filter (F)        
+        GRF - Red grism (GF) on SOFI with order separation filter (F)         
+                                                                              
+        See the data set description for a summary of the wavelength ranges   
+        and dispersions of these dispersers."                                 
+  DATA_TYPE                        = "CHARACTER"                              
+  START_BYTE                       = 54                                       
+  BYTES                            = 5                                        
+  FORMAT                           = "A5"                                     
+ END_OBJECT                        = COLUMN                                   
+                                                                              
+ OBJECT                            = COLUMN                                   
+  COLUMN_NUMBER                    = 8                                        
+  NAME                             = "ASTEROID_AIRMASS"                       
+  DESCRIPTION                      = "Airmass of the asteroid observation"    
+  DATA_TYPE                        = "ASCII_REAL"                             
+  START_BYTE                       = 60                                       
+  BYTES                            = 4                                        
+  FORMAT                           = "F4.2"                                   
+ END_OBJECT                        = COLUMN                                   
+                                                                              
+ OBJECT                            = COLUMN                                   
+  COLUMN_NUMBER                    = 9                                        
+  NAME                             = "SOLAR_ANALOG"                           
+  DESCRIPTION                      = "Solar analog stars used with the        
+        observation, each followed by  the airmasses of their observations in 
+        parentheses.                                                          
+                                                                              
+        hip - stars from the Hipparcos catalog                                
+        la - stars from the Landolt photometric catalog                       
+        HD - stars from the Henry Draper catalog"                             
+  DATA_TYPE                        = "CHARACTER"                              
+  START_BYTE                       = 65                                       
+  BYTES                            = 63                                       
+  FORMAT                           = "A63"                                    
+ END_OBJECT                        = COLUMN                                   
+                                                                              
+END_OBJECT                         = TABLE                                    
+END                                                                           

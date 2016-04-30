@@ -1,0 +1,89 @@
+PDS_VERSION_ID                     = PDS3                                     
+                                                                              
+RECORD_TYPE                        = "FIXED_LENGTH"                           
+RECORD_BYTES                       = 22                                       
+FILE_RECORDS                       = 210                                      
+                                                                              
+^TABLE                             = "1999re.tab"                             
+                                                                              
+DATA_SET_ID                        = "EAR-A-I0039-4-IANNINISPEC-V1.0"         
+PRODUCT_NAME                       = "ASTEROID 202951 VISIBLE WAVELENGTH      
+        SPECTRUM"                                                             
+PRODUCT_ID                         = "1999RE_TAB"                             
+INSTRUMENT_HOST_ID                 = "OBS378T2"                               
+INSTRUMENT_HOST_NAME               = "W.M. KECK OBSERVATORY 10-M KECK II      
+        RITCHEY-CHRETIEN ALTAZIMUTH REFLECTOR"                                
+INSTRUMENT_ID                      = "I0039"                                  
+INSTRUMENT_NAME                    = "KECK ECHELLE SPECTROGRAPH AND IMAGER"   
+TARGET_NAME                        = "1999 RE"                                
+TARGET_TYPE                        = "ASTEROID"                               
+START_TIME                         = 2004-11-10T14:05                         
+STOP_TIME                          = 2004-11-10T15:25                         
+PRODUCT_CREATION_TIME              = 2009-09-10  /* File uploaded to OLAF */  
+REFERENCE_KEY_ID                   = "WILLMANETAL2008"                        
+FILTER_NAME                        = "OPEN"                                   
+SAMPLING_PARAMETER_NAME            = "WAVELENGTH"                             
+SAMPLING_PARAMETER_UNIT            = "ANGSTROM"                               
+SAMPLING_PARAMETER_RESOLUTION      = 3.50 <ANGSTROM>                          
+SLITWIDTH                          = 1.0 <ARCSECOND>                          
+EXPOSURE_DURATION                  = 2700 <SECOND>                            
+IMAGE_COUNT                        = 3                                        
+SOLAR_DISTANCE                     = 2.95 <ASTRONOMICAL_UNIT>                 
+GEOCENTRIC_DISTANCE                = 2.35 <ASTRONOMICAL_UNIT>                 
+PHASE_ANGLE                        = 17.21 <DEGREE>                           
+APPARENT_MAGNITUDE                 = 20.62                                    
+AIRMASS                            = 1.05                                     
+NOTE                               = "Definitions for keywords which may      
+        appear in this label:  IMAGE_COUNT is the number of individual        
+        observations which have been combined to produce this spectrum.       
+        EXPOSURE_DURATION is the total exposure time of the combined          
+        observation(s).  APPARENT_MAGNITUDE is the apparent V  magnitude of   
+        the target.  STAR_NAME is the name of the solar analog star used to   
+        reduce the observation.  PHASE_ANGLE, GEOCENTRIC_DISTANCE,            
+        SOLAR_DISTANCE, and AIRMASS all refer to the target.                  
+        SAMPLING_PARAMETER_RESOLUTION is the spectral resolution of the       
+        spectrum."                                                            
+                                                                              
+OBJECT                             = TABLE                                    
+ ROWS                              = 210                                      
+ ROW_BYTES                         = 22                                       
+ INTERCHANGE_FORMAT                = "ASCII"                                  
+ COLUMNS                           = 3                                        
+ DESCRIPTION                       = "Visible wavelength reflectance spectrum 
+        for asteroid (202951) 1999RE. Solar analogs used for calibration are  
+        listed in data set description."                                      
+                                                                              
+ OBJECT                            = COLUMN                                   
+  COLUMN_NUMBER                    = 1                                        
+  NAME                             = "WAVELENGTH"                             
+  UNIT                             = "ANGSTROM"                               
+  DATA_TYPE                        = "ASCII_REAL"                             
+  START_BYTE                       = 1                                        
+  BYTES                            = 6                                        
+  FORMAT                           = "F6.1"                                   
+ END_OBJECT                        = COLUMN                                   
+                                                                              
+ OBJECT                            = COLUMN                                   
+  COLUMN_NUMBER                    = 2                                        
+  NAME                             = "REFLECTANCE"                            
+  DESCRIPTION                      = "Relative reflectance normalized to 1.0  
+        at 5500 Angstroms"                                                    
+  DATA_TYPE                        = "ASCII_REAL"                             
+  START_BYTE                       = 8                                        
+  BYTES                            = 6                                        
+  FORMAT                           = "F6.4"                                   
+ END_OBJECT                        = COLUMN                                   
+                                                                              
+ OBJECT                            = COLUMN                                   
+  COLUMN_NUMBER                    = 3                                        
+  NAME                             = "UNCERTAINTY"                            
+  DESCRIPTION                      = "Standard deviation of reflectance per 25
+        angstrom wavelength bin"                                              
+  DATA_TYPE                        = "ASCII_REAL"                             
+  START_BYTE                       = 15                                       
+  BYTES                            = 6                                        
+  FORMAT                           = "F6.4"                                   
+ END_OBJECT                        = COLUMN                                   
+                                                                              
+END_OBJECT                         = TABLE                                    
+END                                                                           

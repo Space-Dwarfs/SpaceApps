@@ -1,0 +1,130 @@
+PDS_VERSION_ID                     = PDS3                                     
+RECORD_TYPE                        = "STREAM"                                 
+                                                                              
+OBJECT                             = REFERENCE                                
+  REFERENCE_KEY_ID                 = "ABELL2003"                              
+  REFERENCE_DESC                   = "Abell, P.A., Near-IR reflectance        
+        spectroscopy of main belt and near-Earth objects: A study of their    
+        composition, meteorite affinities and source regions. Ph.D.           
+        dissertation. Rensselaer Polytechnic Institute, Troy, NY, USA, 2003." 
+END_OBJECT                         = REFERENCE                                
+                                                                              
+OBJECT                             = REFERENCE                                
+  REFERENCE_KEY_ID                 = "CLARK1980"                              
+  REFERENCE_DESC                   = "Clark, R.N., A large-scale interactive  
+        one-dimensional array processing system. Publ. Astron. Soc. Pac. 92,  
+        221-224, 1980. doi:10.1086/130652."                                   
+END_OBJECT                         = REFERENCE                                
+                                                                              
+OBJECT                             = REFERENCE                                
+  REFERENCE_KEY_ID                 = "FIEBER-BEY&GAFFE2011"                   
+  REFERENCE_DESC                   = "Fieber-Beyer, S.K., and M.J. Gaffey,    
+        Near-infrared spectroscopy of 3:1 Kirkwood Gap Asteroids (3760)       
+        Poutanen and (974) Lioba. Icarus, 214, 645-651,                       
+        doi:10.1016/j.icarus.2011.06.014, 2011."                              
+END_OBJECT                         = REFERENCE                                
+                                                                              
+OBJECT                             = REFERENCE                                
+  REFERENCE_KEY_ID                 = "FIEBER-BEY&GAFFE2013"                   
+  REFERENCE_DESC                   = "Fieber-Beyer, S.K., and M.J. Gaffey,    
+        Near-Infrared Spectroscopy of 3:1 Kirkwood Gap Asteroids: A Battalion 
+        of Basalts, 44th Lunar and Planetary Science Conference, LPI          
+        Contribution No. 1719, p.1352, 2013."                                 
+END_OBJECT                         = REFERENCE                                
+                                                                              
+OBJECT                             = REFERENCE                                
+  REFERENCE_KEY_ID                 = "FIEBER-BEY&GAFFE2014"                   
+  REFERENCE_DESC                   = "Fieber-Beyer, S.K., and M.J. Gaffey,    
+        Near-infrared spectroscopy of 3:1 Kirkwood Gap asteroids II: Probable 
+        and plausible parent bodies; primitive and differentiated. Icarus,    
+        229, 99-108, doi:10.1016/j.icarus.2013.11.001, 2014.  "               
+END_OBJECT                         = REFERENCE                                
+                                                                              
+OBJECT                             = REFERENCE                                
+  REFERENCE_KEY_ID                 = "FIEBER-BEY&GAFFE2015"                   
+  REFERENCE_DESC                   = "Fieber-Beyer, S.K., and M.J. Gaffey,    
+        Near-infrared spectroscopy of 3:1 Kirkwood Gap asteroids III. Icarus, 
+        257, 113-125, doi:10.1016/j.icarus.2015.04.034, 2015. "               
+END_OBJECT                         = REFERENCE                                
+                                                                              
+OBJECT                             = REFERENCE                                
+  REFERENCE_KEY_ID                 = "FIEBER-BEYEETAL2011C"                   
+  REFERENCE_DESC                   = "Fieber-Beyer, S.K., M.J. Gaffey, M.S.   
+        Kelley, V. Reddy, C.M. Reynolds, and T. Hicks, The Maria Asteroid     
+        Family: Genetic Relationship and a Plausible Source of Mesosiderites  
+        near the 3:1 Kirkwood Gap. Icarus, 213,                               
+        doi:10.1016/j.icarus.2011.03.009, 524-537, 2011."                     
+END_OBJECT                         = REFERENCE                                
+                                                                              
+OBJECT                             = REFERENCE                                
+  REFERENCE_KEY_ID                 = "FIEBER-BEYER2010"                       
+  REFERENCE_DESC                   = "Fieber-Beyer, S.K., Mineralogical       
+        characterization of asteroids in/near the 3:1 Kirkwood Gap, Ph.D.     
+        Dissertation, University of North Dakota, Grand Forks, 203 pp, 2010." 
+END_OBJECT                         = REFERENCE                                
+                                                                              
+OBJECT                             = REFERENCE                                
+  REFERENCE_KEY_ID                 = "FIEBER-BEYERETAL2011"                   
+  REFERENCE_DESC                   = "Fieber-Beyer, S.K., M.J. Gaffey, and    
+        P.A. Abell, Mineralogical Characterization of Near Earth Asteroid     
+        (1036) Ganymed, Icarus, 212, 149-157,                                 
+        doi:10.1016/j.icarus.2010.12.013, 2011."                              
+END_OBJECT                         = REFERENCE                                
+                                                                              
+OBJECT                             = REFERENCE                                
+  REFERENCE_KEY_ID                 = "FIEBER-BEYERETAL2012"                   
+  REFERENCE_DESC                   = "Fieber-Beyer, S.K., M.J. Gaffey, P.S.   
+        Hardersen, and V. Reddy, Near-infrared spectroscopy of 3:1 Kirkwood   
+        Gap asteroids: Mineralogical diversity and plausible meteorite parent 
+        bodies, Icarus 221, 593-602, dx.doi:10.1016/j.icarus.2012.07.029."    
+END_OBJECT                         = REFERENCE                                
+                                                                              
+OBJECT                             = REFERENCE                                
+  REFERENCE_KEY_ID                 = "GAFFEY2003"                             
+  REFERENCE_DESC                   = "Gaffey, M.J., Observational and Data    
+        Reduction Techniques to Optimize Mineralogical Characterizations of   
+        Asteroid Surface Materials. Lunar. Planet. Sci. XXXIV, [abstract      
+        1602], 2003."                                                         
+END_OBJECT                         = REFERENCE                                
+                                                                              
+OBJECT                             = REFERENCE                                
+  REFERENCE_KEY_ID                 = "GAFFEYETAL2002"                         
+  REFERENCE_DESC                   = "Gaffey, M.J., E.A. Cloutis, M.S. Kelley 
+        and K.L. Reed, Mineralogy of asteroids. In Asteroids III (W. F.       
+        Bottke, A. Cellino, P. Paolicchi and R. P. Binzel, Eds.), Univ. of    
+        Arizona Press, pp. 183-204, 2002."                                    
+END_OBJECT                         = REFERENCE                                
+                                                                              
+OBJECT                             = REFERENCE                                
+  REFERENCE_KEY_ID                 = "HARDERSEN2003"                          
+  REFERENCE_DESC                   = "Hardersen P.S., Near-IR Reflectance     
+        Spectroscopy of Asteroids and Study of the Thermal History of the Main
+        Asteroid Belt. Ph.D. Dissertation. Rensselaer Polytechnic Institute,  
+        Troy, New York, USA, 2003."                                           
+END_OBJECT                         = REFERENCE                                
+                                                                              
+OBJECT                             = REFERENCE                                
+  REFERENCE_KEY_ID                 = "RAYNERETAL2003"                         
+  REFERENCE_DESC                   = "Rayner, J. T., D. W. Toomey, P. M.      
+        Onaka, A. J. Denault, W. E. Stahlberger, and 3 others, SpeX: A        
+        Medium-Resolution 0.8 - 5.5 micron Spectrograph and Imager for the    
+        NASA Infrared Telescope Facility, PASP 115, 362, 2003."               
+END_OBJECT                         = REFERENCE                                
+                                                                              
+OBJECT                             = REFERENCE                                
+  REFERENCE_KEY_ID                 = "RAYNERETAL2004"                         
+  REFERENCE_DESC                   = "Rayner, J.T., P. M. Onaka, M. C. Cushing
+        and W. D. Vacca, Four Years of Good SpeX, in Ground-based             
+        Instrumentation for Astronomy, A. F. M. Moorwood and M. Iye, Eds.,    
+        Proceedings of the SPIE, vol. 5492, pp. 1498-1509, 2004."             
+END_OBJECT                         = REFERENCE                                
+                                                                              
+OBJECT                             = REFERENCE                                
+  REFERENCE_KEY_ID                 = "REDDY2009"                              
+  REFERENCE_DESC                   = "Reddy, V., Mineralogical Survey Of      
+        Near-Earth Asteroid Population: Implications For Impact Hazard        
+        Assessment And Sustainability Of Life On Earth, Ph.D. dissertation.   
+        University of North Dakota, Grand Forks, 2009."                       
+END_OBJECT                         = REFERENCE                                
+                                                                              
+END                                                                           

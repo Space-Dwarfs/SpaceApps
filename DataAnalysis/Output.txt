@@ -1,0 +1,27 @@
+--- L1-norms ( <2) ---
+positive example (441 Bathilde):
+    1.4037
+
+negative example (65 Cybele):
+    3.3768
+
+--- L2-norms ( <0.5) ---
+positive example (441 Bathilde):
+    0.2344
+
+negative example (65 Cybele):
+    0.6650
+
+--- Corr. Coef. ( >90%) ---
+positive example (441 Bathilde):
+   97.5109
+
+negative example (65 Cybele):
+   62.4802
+
+--- Composition ---
+Asteroid 441 Bathilde (Type M):
+nickel, iron, cobalt
+ 
+Asteroid 65 Cybele (Type P):
+platinum, nickel, iron, cobalt

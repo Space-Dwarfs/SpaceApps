@@ -1,0 +1,64 @@
+PDS_VERSION_ID                     = PDS3                                     
+                                                                              
+RECORD_TYPE                        = "FIXED_LENGTH"                           
+RECORD_BYTES                       = 16                                       
+FILE_RECORDS                       = 371                                      
+                                                                              
+^TABLE                             = "137meliboea.tab"                        
+                                                                              
+DATA_SET_ID                        =                                          
+        "EAR-A-3-RDR-SAWYER-ASTEROID-SPECTRA-V1.2"                            
+PRODUCT_NAME                       = "137MELIBOEA"                            
+PRODUCT_ID                         = "SPECTRA_137MELIBOEA_TAB"                
+INSTRUMENT_HOST_ID                 = "MCD21"                                  
+INSTRUMENT_HOST_NAME               = "MCDONALD OBSERVATORY 2.1-M STRUVE WARNER
+        & SWASEY REFLECTOR"                                                   
+INSTRUMENT_ID                      = "ES2"                                    
+INSTRUMENT_NAME                    = "CASSEGRAIN SPECTROMETER"                
+TARGET_NAME                        = "137 MELIBOEA"                           
+TARGET_TYPE                        = "ASTEROID"                               
+START_TIME                         = 1990-07-08                               
+STOP_TIME                          = 1990-07-08                               
+PRODUCT_CREATION_TIME              = 2005-02-07  /* File uploaded to OLAF */  
+CITATION_DESC                      = "Sawyer, S., 137meliboea.                
+        EAR-A-3-RDR-SAWYER-ASTEROID-SPECTRA-V1.2:SPECTRA_137MELIBOEA_TAB. NASA
+        Planetary Data System, 1998."                                         
+REFERENCE_KEY_ID                   = "SAWYER1991"                             
+RECORD_FORMAT                      = "(F7.5, 2X, F5.3)"                       
+                                                                              
+OBJECT                             = TABLE                                    
+ ROWS                              = 371                                      
+ ROW_BYTES                         = 16                                       
+ INTERCHANGE_FORMAT                = "ASCII"                                  
+ COLUMNS                           = 2                                        
+ DESCRIPTION                       = "This is the spectrum of the object      
+        indicated in TARGET_NAME, from the Sawyer Asteroid Spectra.           
+        Observational parameters for this spectrum are in the file            
+        sawindex.tab.  Parameters for the solar analog stars used are in      
+        sawsolar.tab.                                                         
+        "                                                                     
+                                                                              
+ OBJECT                            = COLUMN                                   
+  COLUMN_NUMBER                    = 1                                        
+  NAME                             = "WAVELENGTH"                             
+  DESCRIPTION                      = "Wavelength of data point in microns"    
+  UNIT                             = "MICRON"                                 
+  DATA_TYPE                        = "ASCII_REAL"                             
+  START_BYTE                       = 1                                        
+  BYTES                            = 7                                        
+  FORMAT                           = "F7.5"                                   
+ END_OBJECT                        = COLUMN                                   
+                                                                              
+ OBJECT                            = COLUMN                                   
+  COLUMN_NUMBER                    = 2                                        
+  NAME                             = "REFLECTANCE"                            
+  DESCRIPTION                      = "Reflectance at this wavelength,         
+        normalized to 0.55 microns"                                           
+  DATA_TYPE                        = "ASCII_REAL"                             
+  START_BYTE                       = 10                                       
+  BYTES                            = 5                                        
+  FORMAT                           = "F5.3"                                   
+ END_OBJECT                        = COLUMN                                   
+                                                                              
+END_OBJECT                         = TABLE                                    
+END                                                                           

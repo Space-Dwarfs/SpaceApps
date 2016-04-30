@@ -1,0 +1,32 @@
+PDS_VERSION_ID                     = PDS3                                     
+RECORD_TYPE                        = STREAM                                   
+                                                                              
+OBJECT                             = TEXT                                     
+   PUBLICATION_DATE                = 2009-09-10  /*Label Generated*/          
+   NOTE                            = "Description of the contents of the      
+        catalog directory."                                                   
+END_OBJECT                         = TEXT                                     
+END                                                                           
+                                                                              
+                                                                              
+This directory contains the PDS catalog files for this data set. Instrument   
+host file names end in "host.cat". Instrument file names in "inst.cat".       
+Target files are located in the TARGET sub-directory.                         
+                                                                              
+                   catalog Directory Contents                                 
+                                                                              
+catinfo.txt - The file you are reading.                                       
+                                                                              
+dataset.cat - The catalog file for the data set "Iannini Asteroid Family      
+        Spectra V1.0".                                                        
+                                                                              
+i0039inst.cat - The catalog file for the instrument "Keck Echelle Spectrograph
+        and Imager".                                                          
+                                                                              
+mission.cat - The catalog file for the mission "Support Archives".            
+                                                                              
+obs378t2host.cat - The catalog file for the instrument host "W.M. Keck        
+        Observatory 10-m Keck II Ritchey-Chretien altazimuth reflector".      
+                                                                              
+ref.cat - A listing of all publications referenced in the data set.  This is  
+        analogous to a bibliography for the data set.                         

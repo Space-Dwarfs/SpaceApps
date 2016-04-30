@@ -1,0 +1,90 @@
+PDS_VERSION_ID                     = PDS3                                     
+                                                                              
+RECORD_TYPE                        = "FIXED_LENGTH"                           
+RECORD_BYTES                       = 22                                       
+FILE_RECORDS                       = 470                                      
+                                                                              
+^TABLE                             = "2005ad13.tab"                           
+                                                                              
+DATA_SET_ID                        = "EAR-A-I0046-5-REDDYSPEC-V1.0"           
+PRODUCT_NAME                       = "NEAR-IR SPECTRUM OF ASTEROID 2005 AD13" 
+PRODUCT_ID                         = "2005AD13_TAB"                           
+INSTRUMENT_HOST_ID                 = "OBS376T3"                               
+INSTRUMENT_HOST_NAME               = "MAUNA KEA OBSERVATORY 3.0-M NASA        
+        INFRARED TELESCOPE FACILITY (IRTF)"                                   
+INSTRUMENT_ID                      = "I0046"                                  
+INSTRUMENT_NAME                    = "SPEX"                                   
+TARGET_NAME                        = "2005 AD13"                              
+TARGET_TYPE                        = "ASTEROID"                               
+START_TIME                         = 2007-06-11                               
+STOP_TIME                          = 2007-06-11                               
+PRODUCT_CREATION_TIME              = 2010-06-24  /* File uploaded to OLAF */  
+CITATION_DESC                      = "Reddy, V., NEAR-IR SPECTRUM OF ASTEROID 
+        2005 AD13. EAR-A-I0046-5-REDDYSPEC-V1.0:2005AD13_TAB. NASA Planetary  
+        Data System, 2010."                                                   
+ABSTRACT_DESC                      = "Near-IR reflectance spectrum of         
+        near-Earth Asteroid 2005AD13"                                         
+                                                                              
+REFERENCE_KEY_ID                   = "REDDY2009"                              
+FILTER_NAME                        = "V"                                      
+APPARENT_MAGNITUDE                 = 15.6                                     
+SLITWIDTH                          = 0.8 <ARCSECOND>                          
+SOLAR_DISTANCE                     = 1.10 <ASTRONOMICAL_UNIT>                 
+PHASE_ANGLE                        = 47 <DEGREE>                              
+AIRMASS                            = 1.06                                     
+STAR_NAME                          = "SAO120107"                              
+NOTE                               = "Definitions for keywords which may      
+        appear in this label:  IMAGE_COUNT is the number of individual        
+        observations which have been combined to produce this spectrum.       
+        EXPOSURE_DURATION is the total exposure time of the combined          
+        observation(s).  APPARENT_MAGNITUDE is the apparent V  magnitude of   
+        the target.  FILTER_NAME (always V) is the filter of the              
+        APPARENT_MAGNITUDE.  STAR_NAME is the name of the solar analog star   
+        used to reduce the observation.  PHASE_ANGLE, GEOCENTRIC_DISTANCE,    
+        SOLAR_DISTANCE, and AIRMASS all refer to the target.                  
+        SAMPLING_PARAMETER_RESOLUTION is the spectral resolution of the       
+        spectrum."                                                            
+                                                                              
+OBJECT                             = TABLE                                    
+ ROWS                              = 470                                      
+ ROW_BYTES                         = 22                                       
+ INTERCHANGE_FORMAT                = "ASCII"                                  
+ COLUMNS                           = 3                                        
+ DESCRIPTION                       = "Near-IR reflectance spectrum of         
+        near-Earth asteroids obtained using the SpeX instrument on NASA IRTF  
+        as part of Reddy (2009) Ph.D. dissertation."                          
+                                                                              
+ OBJECT                            = COLUMN                                   
+  COLUMN_NUMBER                    = 1                                        
+  NAME                             = "WAVELENGTH"                             
+  UNIT                             = "MICRON"                                 
+  DATA_TYPE                        = "ASCII_REAL"                             
+  START_BYTE                       = 1                                        
+  BYTES                            = 6                                        
+  FORMAT                           = "F6.4"                                   
+ END_OBJECT                        = COLUMN                                   
+                                                                              
+ OBJECT                            = COLUMN                                   
+  COLUMN_NUMBER                    = 2                                        
+  NAME                             = "REFLECTANCE"                            
+  DESCRIPTION                      = "Relative reflectance normalized to 1.0  
+        at ~1.50 microns"                                                     
+  DATA_TYPE                        = "ASCII_REAL"                             
+  START_BYTE                       = 8                                        
+  BYTES                            = 6                                        
+  FORMAT                           = "F6.4"                                   
+ END_OBJECT                        = COLUMN                                   
+                                                                              
+ OBJECT                            = COLUMN                                   
+  COLUMN_NUMBER                    = 3                                        
+  NAME                             = "UNCERTAINTY"                            
+  DESCRIPTION                      = "Weighted averaged formal uncertainty per
+        wavelength channel based on Poisson statistics."                      
+  DATA_TYPE                        = "ASCII_REAL"                             
+  START_BYTE                       = 15                                       
+  BYTES                            = 6                                        
+  FORMAT                           = "F6.4"                                   
+ END_OBJECT                        = COLUMN                                   
+                                                                              
+END_OBJECT                         = TABLE                                    
+END                                                                           

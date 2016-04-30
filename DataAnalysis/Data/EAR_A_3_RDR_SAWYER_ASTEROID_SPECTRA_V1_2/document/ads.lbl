@@ -1,0 +1,18 @@
+PDS_VERSION_ID                     = PDS3                                     
+RECORD_TYPE                        = "STREAM"                                 
+FILE_RECORDS                       = 680                                      
+DATA_SET_ID                        =                                          
+        "EAR-A-3-RDR-SAWYER-ASTEROID-SPECTRA-V1.2"                            
+                                                                              
+^DOCUMENT                          = "ads.txt"                                
+                                                                              
+OBJECT                             = DOCUMENT                                 
+   DOCUMENT_NAME                   = "ADS SUBMISSION FILE"                    
+   PUBLICATION_DATE                = 2005-02-07                               
+   DOCUMENT_TOPIC_TYPE             = "BIBLIOGRAPHIC INFORMATION"              
+   INTERCHANGE_FORMAT              = "ASCII"                                  
+   DOCUMENT_FORMAT                 = "TEXT"                                   
+   DESCRIPTION                     = "This document is sent to Astrophysics   
+        Data System to list this data set and its products in their service." 
+END_OBJECT                         = DOCUMENT                                 
+END                                                                           

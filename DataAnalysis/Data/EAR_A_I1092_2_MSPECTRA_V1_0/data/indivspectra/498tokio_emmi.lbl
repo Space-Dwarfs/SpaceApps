@@ -1,0 +1,82 @@
+PDS_VERSION_ID                     = PDS3                                     
+                                                                              
+RECORD_TYPE                        = "FIXED_LENGTH"                           
+RECORD_BYTES                       = 28                                       
+FILE_RECORDS                       = 778                                      
+                                                                              
+^TABLE                             = "498tokio_emmi.tab"                      
+                                                                              
+DATA_SET_ID                        = "EAR-A-I1092-2-MSPECTRA-V1.0"            
+PRODUCT_NAME                       = "498TOKIO_EMMI"                          
+PRODUCT_ID                         = "INDIVSPECTRA_498TOKIO_EMMI_TAB"         
+INSTRUMENT_HOST_ID                 = "OBS056T9"                               
+INSTRUMENT_HOST_NAME               = "EUROPEAN SOUTHERN OBSERVATORY NEW       
+        TECHNOLOGY TELESCOPE (NTT)"                                           
+INSTRUMENT_ID                      = "I0373"                                  
+INSTRUMENT_NAME                    = "ESO MULTI-MODE INSTRUMENT: RILD MODE"   
+TARGET_NAME                        = "498 TOKIO"                              
+TARGET_TYPE                        = "ASTEROID"                               
+START_TIME                         = 2005-08-13T05:45                         
+STOP_TIME                          = 2005-08-13T05:45                         
+PRODUCT_CREATION_TIME              = 2011-08-15  /* File uploaded to OLAF */  
+REFERENCE_KEY_ID                   = "FORNASIERETAL2010"                      
+EXPOSURE_DURATION                  = 60 <SECOND>                              
+AIRMASS                            = 1.10                                     
+NOTE                               = "Definitions for keywords which may      
+        appear in this label:  IMAGE_COUNT is the number of individual        
+        observations which have been combined to produce this spectrum.       
+        EXPOSURE_DURATION is the total exposure time of the combined          
+        observation(s).  APPARENT_MAGNITUDE is the apparent V  magnitude of   
+        the target.  FILTER_NAME (always V) is the filter of the              
+        APPARENT_MAGNITUDE.  STAR_NAME is the name of the solar analog star   
+        used to reduce the observation.  PHASE_ANGLE, GEOCENTRIC_DISTANCE,    
+        SOLAR_DISTANCE, and AIRMASS all refer to the target.                  
+        SAMPLING_PARAMETER_RESOLUTION is the spectral resolution of the       
+        spectrum."                                                            
+                                                                              
+OBJECT                             = TABLE                                    
+ ROWS                              = 778                                      
+ ROW_BYTES                         = 28                                       
+ INTERCHANGE_FORMAT                = "ASCII"                                  
+ COLUMNS                           = 3                                        
+ DESCRIPTION                       = "Individual spectrum of M asteroid from  
+        Fornasier et al. (2010).  Individual spectra were combined across     
+        instruments to produce a single composite spectrum for each target.   
+        The composite spectra are in the subdirectory 'compspectra'."         
+                                                                              
+ OBJECT                            = COLUMN                                   
+  COLUMN_NUMBER                    = 1                                        
+  NAME                             = "WAVELENGTH"                             
+  UNIT                             = "MICRON"                                 
+  DATA_TYPE                        = "ASCII_REAL"                             
+  START_BYTE                       = 1                                        
+  BYTES                            = 8                                        
+  FORMAT                           = "F8.6"                                   
+ END_OBJECT                        = COLUMN                                   
+                                                                              
+ OBJECT                            = COLUMN                                   
+  COLUMN_NUMBER                    = 2                                        
+  NAME                             = "REFLECTANCE"                            
+  DESCRIPTION                      = "Relative reflectance of individual      
+        spectrum.  For details of the normalization, see the data set         
+        description."                                                         
+  DATA_TYPE                        = "ASCII_REAL"                             
+  START_BYTE                       = 10                                       
+  BYTES                            = 8                                        
+  FORMAT                           = "F8.6"                                   
+ END_OBJECT                        = COLUMN                                   
+                                                                              
+ OBJECT                            = COLUMN                                   
+  COLUMN_NUMBER                    = 3                                        
+  NAME                             = "UNCERTAINTY"                            
+  DESCRIPTION                      = "Uncertainty of the reflectance.  See the
+        confidence level note in the data set catalog file for the details of 
+        how the uncertainty was calculated."                                  
+  DATA_TYPE                        = "ASCII_REAL"                             
+  START_BYTE                       = 19                                       
+  BYTES                            = 8                                        
+  FORMAT                           = "F8.6"                                   
+ END_OBJECT                        = COLUMN                                   
+                                                                              
+END_OBJECT                         = TABLE                                    
+END                                                                           

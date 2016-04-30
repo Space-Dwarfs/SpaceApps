@@ -1,0 +1,85 @@
+PDS_VERSION_ID                     = PDS3                                     
+                                                                              
+RECORD_TYPE                        = "FIXED_LENGTH"                           
+RECORD_BYTES                       = 22                                       
+FILE_RECORDS                       = 525                                      
+                                                                              
+^TABLE                             = "248.tab"                                
+                                                                              
+DATA_SET_ID                        = "EAR-A-I0046-3-FBIRTFSPEC-V3.0"          
+PRODUCT_NAME                       = "SPECTRUM 248 LAMEIA"                    
+PRODUCT_ID                         = "FIEBERBEYER_GAFFEY2015_248_TAB"         
+INSTRUMENT_HOST_ID                 = "OBS376T3"                               
+INSTRUMENT_HOST_NAME               = "MAUNA KEA OBSERVATORY 3.0-M NASA        
+        INFRARED TELESCOPE FACILITY (IRTF)"                                   
+INSTRUMENT_ID                      = "I0046"                                  
+INSTRUMENT_NAME                    = "SPEX"                                   
+TARGET_NAME                        = "248 LAMEIA"                             
+TARGET_TYPE                        = "ASTEROID"                               
+START_TIME                         = 2013-05-31T05:17:09                      
+STOP_TIME                          = 2013-05-31T06:01:25                      
+PRODUCT_CREATION_TIME              = 2015-12-14  /* File uploaded to OLAF */  
+REFERENCE_KEY_ID                   = "FIEBER-BEY&GAFFE2015"                   
+FILTER_NAME                        = "V"                                      
+APPARENT_MAGNITUDE                 = 13.08                                    
+SAMPLING_PARAMETER_NAME            = "WAVELENGTH"                             
+SAMPLING_PARAMETER_UNIT            = "MICRON"                                 
+SAMPLING_PARAMETER_RESOLUTION      = 0.016 <MICRON>                           
+SLITWIDTH                          = 0.8 <ARCSECOND>                          
+EXPOSURE_DURATION                  = 1680 <SECOND>                            
+IMAGE_COUNT                        = 14                                       
+SOLAR_DISTANCE                     = 2.33 <ASTRONOMICAL_UNIT>                 
+GEOCENTRIC_DISTANCE                = 1.48 <ASTRONOMICAL_UNIT>                 
+PHASE_ANGLE                        = 17.18 <DEGREE>                           
+AIRMASS                            = 1.405                                    
+STAR_NAME                          = "HD 118928"                              
+                                                                              
+OBJECT                             = TABLE                                    
+ ROWS                              = 525                                      
+ ROW_BYTES                         = 22                                       
+ INTERCHANGE_FORMAT                = "ASCII"                                  
+ COLUMNS                           = 3                                        
+ DESCRIPTION                       = "This reduced,calibrated asteroid        
+        spectrum was obtained by Sherry Fieber-Beyer with the NASA IRTF SpeX  
+        instrument, and covers the 0.7-2.5 micron near-infrared spectral      
+        range.  The airmass quoted is from the start of exposure."            
+                                                                              
+ OBJECT                            = COLUMN                                   
+  COLUMN_NUMBER                    = 1                                        
+  NAME                             = "WAVELENGTH"                             
+  UNIT                             = "MICRON"                                 
+  DATA_TYPE                        = "ASCII_REAL"                             
+  START_BYTE                       = 1                                        
+  BYTES                            = 6                                        
+  FORMAT                           = "F6.4"                                   
+ END_OBJECT                        = COLUMN                                   
+                                                                              
+ OBJECT                            = COLUMN                                   
+  COLUMN_NUMBER                    = 2                                        
+  NAME                             = "REFLECTANCE"                            
+  DESCRIPTION                      = "The best reductions were normalized     
+        across a spectral interval to avoid the noise that may be associated  
+        with any individual point in the spectrum. The normalization value was
+        the average of the values in SpeX channels 380 to 410. (1.5 to 1.7    
+        microns)."                                                            
+  DATA_TYPE                        = "ASCII_REAL"                             
+  START_BYTE                       = 8                                        
+  BYTES                            = 6                                        
+  FORMAT                           = "F6.4"                                   
+ END_OBJECT                        = COLUMN                                   
+                                                                              
+ OBJECT                            = COLUMN                                   
+  COLUMN_NUMBER                    = 3                                        
+  NAME                             = "UNCERTAINTY"                            
+  DESCRIPTION                      = "The uncertainties associated with each  
+        channel in each asteroid spectrum are standard errors of the mean of  
+        the values averaged to get the reflectance in that channel. "         
+  DATA_TYPE                        = "ASCII_REAL"                             
+  START_BYTE                       = 15                                       
+  BYTES                            = 6                                        
+  FORMAT                           = "F6.4"                                   
+  MISSING_CONSTANT                 = "-.9999"                                 
+ END_OBJECT                        = COLUMN                                   
+                                                                              
+END_OBJECT                         = TABLE                                    
+END                                                                           

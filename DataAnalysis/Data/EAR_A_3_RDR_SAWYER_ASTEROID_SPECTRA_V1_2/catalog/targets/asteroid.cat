@@ -1,0 +1,19 @@
+PDS_VERSION_ID = PDS3                                                         
+                                                                              
+LABEL_REVISION_NOTE                = "10 Mar 1999, A.C.Raugh First draft from 
+        available information"                                                
+                                                                              
+OBJECT     = TARGET                                                           
+  TARGET_NAME = "ASTEROID"                                                    
+                                                                              
+  OBJECT     = TARGET_INFORMATION                                             
+    TARGET_TYPE        = "ASTEROID"                                           
+    ORBIT_DIRECTION    = "N/A"                                                
+    PRIMARY_BODY_NAME  = "SUN"                                                
+    ROTATION_DIRECTION = "N/A"                                                
+    TARGET_DESC        = "ASTEROID"                                           
+  END_OBJECT = TARGET_INFORMATION                                             
+                                                                              
+END_OBJECT = TARGET                                                           
+                                                                              
+END                                                                           

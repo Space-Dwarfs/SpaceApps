@@ -1,0 +1,25 @@
+PDS_VERSION_ID                     = PDS3                                     
+RECORD_TYPE                        = STREAM                                   
+                                                                              
+OBJECT                             = TEXT                                     
+   PUBLICATION_DATE                = 2010-08-09  /* Label Generated */        
+   NOTE                            = "Description of the contents of the      
+        document directory."                                                  
+END_OBJECT                         = TEXT                                     
+END                                                                           
+                                                                              
+"document" Directory Contents                                                 
+                                                                              
+The document directory contains documentation files, where available, for the 
+data set in this volume.  All document files will have an accompanying label  
+file to describe content and structure.  Label files have the same name as the
+main document file, with an extension of ".lbl".                              
+                                                                              
+docinfo.txt -  The file you are reading.                                      
+                                                                              
+ads.asc -  This is an internal file of bibliographic information to be sent by
+        PDS to the Abstract Data Service (ADS) to list this data set in their 
+        service.  This file is not intended to be useful to data users.       
+                                                                              
+ads.lbl -  The label for ads.asc.                                             
+                                                                              

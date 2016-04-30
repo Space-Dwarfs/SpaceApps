@@ -1,0 +1,31 @@
+PDS_VERSION_ID   = PDS3                                                       
+                                                                              
+OBJECT     = REFERENCE                                                        
+  REFERENCE_KEY_ID     = "HARDORP1978"                                        
+  REFERENCE_DESC       = "Hardorp, J., Astronomy and Astrophysics, 63, 383,   
+        1978."                                                                
+END_OBJECT = REFERENCE                                                        
+                                                                              
+OBJECT     = REFERENCE                                                        
+  REFERENCE_KEY_ID     = "HARDORP1982"                                        
+  REFERENCE_DESC       = "Hardorp, J., 'The sun among the stars .5. A second  
+        search for solar spectral analogs - The Haydes distance', Astronomy   
+        and Astrophysics, 105, 120, 1982."                                    
+END_OBJECT = REFERENCE                                                        
+                                                                              
+OBJECT     = REFERENCE                                                        
+  REFERENCE_KEY_ID     = "LUKAC&MILLER2000"                                   
+  REFERENCE_DESC       = "Lukac, M. R., and R. J. Miller. List of Active      
+        Professional Observatories. United States Naval Observatory Circular  
+        No. 178. Washington DC, 2000.                                         
+        "                                                                     
+END_OBJECT = REFERENCE                                                        
+                                                                              
+OBJECT     = REFERENCE                                                        
+  REFERENCE_KEY_ID     = "SAWYER1991"                                         
+  REFERENCE_DESC       = "Sawyer, Scott R., A high resolution CCD             
+        spectroscopic survey of low albedo main belt asteroids, Ph.D.         
+        dissertation, University of Texas at Austin, 1991."                   
+END_OBJECT = REFERENCE                                                        
+                                                                              
+END                                                                           

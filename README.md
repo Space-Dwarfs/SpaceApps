@@ -3,7 +3,7 @@ NASA Space Apps Challenge 2016
 
 ## Description
 
-Checck our [project page ](https://2016.spaceappschallenge.org/challenges/solar-system/asteroid-mining/projects/space-dwarfs)
+Check out our [project page ](https://2016.spaceappschallenge.org/challenges/solar-system/asteroid-mining/projects/space-dwarfs)
 
 ## Video
 
